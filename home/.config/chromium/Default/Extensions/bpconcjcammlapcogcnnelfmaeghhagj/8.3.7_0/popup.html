@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+    <title>Nimbus ScreenShot</title>
+    <link rel="stylesheet" href="css/old-style.css" type="text/css" media="screen, projection"/>
+    <!--<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection"/>-->
+    <style type="text/css">
+        body {
+            padding: 0 10px 5px;
+        }
+
+        textarea:focus, input:focus, select:focus {
+            outline: none;
+        }
+    </style>
+</head>
+<script src="js/jquery.js"></script>
+<script src="js/popup.js"></script>
+
+<body>
+<div class="capture_options">
+    <h3 class="capture_title">CAPTURE OPTIONS</h3>
+    <button class="main_btn" id="visible" tabindex="-1"><i class="visible"></i><span>Visible part of page</span></button>
+    <button class="main_btn" id="fragment" tabindex="-1"><i class="fragment"></i><span>Capture Fragment</span></button>
+    <button class="main_btn" id="area" tabindex="-1"><i class="selected"></i><span>Selected area</span></button>
+    <button class="main_btn" id="scroll" tabindex="-1"><i class="scroll"></i><span>Selected & Scroll</span></button>
+    <button class="main_btn" id="entire" tabindex="-1"><i class="entire"></i><span>Entire page</span></button>
+    <button class="main_btn" id="window" tabindex="-1"><i class="browser"></i><span>Browser window</span></button>
+    <button class="main_btn" id="blank" tabindex="-1"><i class="blank"></i><span>Blank Screen</span></button>
+    <button class="main_btn" id="video" tabindex="-1"><i class="video"></i><span>Record Video</span></button>
+    <button class="main_btn" id="android" tabindex="-1"><i class="android"></i><span>Android Version</span></button>
+    <span class="enable_edit settings_btn">
+        <!--<input id="enableEdit" name="enable-edit" type="checkbox" value="edit">-->
+        <!--<label for="enableEdit">enable edit</label>-->
+        <select name="save" id="enableEdit">
+            <option value="edit" selected>enable edit</option>
+            <option value="done">save as</option>
+            <option value="save">download</option>
+            <option value="copy">copy to clipboard</option>
+        </select>
+    </span>
+    <button class="settings_btn" id="options" tabindex="-1"><i class="options"></i><span>Options</span></button>
+    <div class="clr"></div>
+</div>
+<div class="record_options section">
+    <h3 class="video_title">video record</h3>
+
+    <div id="microphone-sound" class="flag">
+        <input id="micsound" type="checkbox" name="mic">
+        <label for="micsound">Record Mic Sound</label>
+    </div>
+    <div id="tab-sound" class="flag">
+        <input id="tabsound" type="checkbox" name="tab">
+        <label for="tabsound">Record Tab Sound</label>
+    </div>
+    <div id="cursor-animate" class="flag">
+        <input id="cursoranimate" type="checkbox" name="tab">
+        <label for="cursoranimate">Animaded cursor</label>
+    </div>
+    <div class="flag" id="countdown" style="margin: 10px 0">
+        <label for="countdown" style="vertical-align: middle;">Countdown</label>
+        <input type="number" value="3" min="0" max="10" style="margin-left: 10px"/>
+    </div>
+    <button class="main_btn" id="tab-record" tabindex="-1"><i class="stoprecord"></i><span>Tab Record</span></button>
+    <button class="main_btn" id="desktop-record" tabindex="-1"><i class="stoprecord"></i><span>Desktop Record</span></button>
+    <button class="settings_btn" id="back" tabindex="-1" style="float: left"><span>< back</span></button>
+</div>
+<div class="record_status">
+    <h3 class="record_title"><b>video record:</b><span class="recordtime">00:00</span></h3>
+    <button class="main_btn" id="stop-record" tabindex="-1"><i class="stoprecord"></i><span>Stop Record</span></button>
+</div>
+</body>
+</html>

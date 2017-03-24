@@ -1,0 +1,453 @@
+{
+    "appName": {
+        "message": "Nimbus Screenshot",
+        "description": "The title of the extension"
+    },
+    "appDesc": {
+        "message": "Сними веб страницу, део ње или цели прозор прегледача, уреди снимке екрана и сачувај слику као локалну датотеку или на Google Drive.",
+        "description": "The description of the extension"
+    },
+
+    "popupTitle": {
+        "message": "Опције снимања"
+    },
+    "popupBtnVisible": {
+        "message": "Видљиви део странице"
+    },
+    "popupBtnFragment": {
+        "message": "Сними одломак"
+    },
+    "popupBtnArea": {
+        "message": "Одабрано подручје"
+    },
+    "popupBtnScroll": {
+        "message": "Одабери и скролуј"
+    },
+    "popupBtnEntire": {
+        "message": "Цела страница"
+    },
+    "popupBtnWindow": {
+        "message": "Прозор прегледача"
+    },
+    "popupBtnDesktop": {
+        "message": "Снимак са десктопа"
+    },
+    "popupBtnBlank": {
+        "message": "Празан екран"
+    },
+    "popupBtnAndroid": {
+        "message": "Верзија за Android"
+    },
+    "popupBtnOptions": {
+        "message": "Подешавања"
+    },
+    "popupBtnEnableEdit": {
+        "message": "уреди"
+    },
+    "popupBtnEnableDownload": {
+        "message": "преузми"
+    },
+    "popupBtnEnableSave": {
+        "message": "сачувај као"
+    },
+    "popupBtnEnableCopy": {
+        "message": "копирај у клипборд"
+    },
+
+    "cropBtnEdit": {
+        "message": "Уреди"
+    },
+    "cropBtnSave": {
+        "message": "Сачувај"
+    },
+    "cropBtnCancel": {
+        "message": "Откажи"
+    },
+    "cropBtnCopy": {
+        "message": "Копирај у клипборд"
+    },
+    "cropBtnNimbus": {
+        "message": "Пошаљи у Nimbus"
+    },
+
+
+    "optionsTitle": {
+        "message": "Подешавања"
+    },
+    "optionsFormat": {
+        "message": "Формат слике"
+    },
+    "optionsQuality": {
+        "message": "Квалитет слике"
+    },
+    "optionsSave": {
+        "message": "Подешавања чувања"
+    },
+    "optionsSaveAs": {
+        "message": "Омогући дијалог \"Сачувај као\""
+    },
+    "optionsNameTpl": {
+        "message": "Образац за именовање датотеке:"
+    },
+    "optionsCanUse": {
+        "message": "Можете користити"
+    },
+    "optionsEditor": {
+        "message": "Подешавања уређивача"
+    },
+    "Editor": {
+        "message": "Омогући сенке"
+    },
+    "optionsNumbers": {
+        "message": "Прикажи бројеве поред објеката"
+    },
+    "optionsQuickCaptureTitle": {
+        "message": "Подешавања снимања"
+    },
+    "optionsSaveCropPosition": {
+        "message": "Сачувај позицију одсецања"
+    },
+    "optionsHideFixedElements": {
+        "message": "Сакриј фиксне елементе"
+    },
+    "optionsQuickCaptureEnable": {
+        "message": "Омогући брзо снимање (не приказуј искачући прозор)"
+    },
+    "optionsShortcut": {
+        "message": "Подешавања пречица"
+    },
+    "optionsFrom": {
+        "message": "од"
+    },
+
+    "panelSize": {
+        "message": "Величина"
+    },
+    "panelTools": {
+        "message": "Алати за цртање"
+    },
+    "panelActions": {
+        "message": "Акције"
+    },
+    "panelParameters": {
+        "message": "Параметри"
+    },
+    "captureHelperWindowTitle": {
+        "message": "Изабери један од екрана за сликање!"
+    },
+    "dropImageTitle": {
+        "message": "отпусти слику овде"
+    },
+    "moreOptionsTitle": {
+        "message": "Потребно је још опција за снимање екрана? Употреби"
+    },
+
+    "notificationCopy": {
+        "message": "Слика је копирана у клипборд."
+    },
+    "notificationWrongEditor": {
+        "message": "Жао нам је али уређивач ће вероватно радити неисправно са веома великим сликама."
+    },
+    "notificationWrongInsert": {
+        "message": "Клипборд не садржи слике за убацивање."
+    },
+    "notificationInsertInfo": {
+        "message": "Можете убацити само слику."
+    },
+    "notificationWrong": {
+        "message": "Нешто није у реду. Покушајте поново."
+    },
+    "notificationLoginFail": {
+        "message": "Пријављивање није успело. Покушајте поново."
+    },
+    "notificationEmailFail": {
+        "message": "Ова е-пошта је већ регистрована."
+    },
+    "notificationRegisterFail": {
+        "message": "Регистрација није успела. Покушајте поново."
+    },
+    "notificationDataIncorrect": {
+        "message": "Унели сте погрешне податке. Покушајте поново."
+    },
+    "notificationPassChanged": {
+        "message": "Лозинка је промењена."
+    },
+    "notificationKeyIncorrect": {
+        "message": "Унели сте погрешан код. Покушајте поново."
+    },
+    "notificationRestoreSent": {
+        "message": "Упутство за обнову је послато на вашу е-пошту."
+    },
+    "notificationEmailIncorrect": {
+        "message": "Погрешна е-пошта. Покушајте поново."
+    },
+    "notificationUrlCopied": {
+        "message": "УРЛ адреса је копирана у клипборд."
+    },
+    "notificationUploaded": {
+        "message": "Отпремање је комплетирано."
+    },
+    "notificationReachedLimit": {
+        "message": "Достигли сте месечно ограничење (100 МБ). Да бисте наставили, морате да купите Nimbus Pro."
+    },
+
+
+    "tooltipZoomPlus": {
+        "message": "зум +"
+    },
+    "tooltipZoomMinus": {
+        "message": "зум -"
+    },
+    "tooltipResize": {
+        "message": "промени величину"
+    },
+    "tooltipCrop": {
+        "message": "одсеци"
+    },
+    "tooltipPen": {
+        "message": "оловка"
+    },
+    "tooltipRectangle": {
+        "message": "правоугаоник"
+    },
+    "tooltipText": {
+        "message": "текст"
+    },
+    "tooltipUndo": {
+        "message": "опозови"
+    },
+    "tooltipRedo": {
+        "message": "понови"
+    },
+    "tooltipUndoAll": {
+        "message": "опозови све"
+    },
+    "tooltipZoom": {
+        "message": "зумирање"
+    },
+    "tooltipEllipse": {
+        "message": "елипса"
+    },
+    "tooltipLine": {
+        "message": "линија"
+    },
+    "tooltipArrow": {
+        "message": "стрелица"
+    },
+    "tooltipLineWidth": {
+        "message": "измени ширину линије"
+    },
+    "tooltipColor": {
+        "message": "боја "
+    },
+    "tooltipBlur": {
+        "message": "замагљивање"
+    },
+    "tooltipNote": {
+        "message": "белешка"
+    },
+    "tooltipNumbers": {
+        "message": "прикажи бројеве"
+    },
+    "tooltipShadow": {
+        "message": "сенка"
+    },
+    "tooltipCopy": {
+        "message": "Копирај у клипборд"
+    },
+    "tooltipShortUrl": {
+        "message": "Направи кратку УРЛ адресу"
+    },
+    "tooltipNotAuthorized": {
+        "message": "Нисте пријављени на свој налог"
+    },
+    "tooltipLogout": {
+        "message": "одјава"
+    },
+    "tooltipUploadTo": {
+        "message": "Отпреми на"
+    },
+    "tooltipWrongEmail": {
+        "message": "Погрешна е-пошта"
+    },
+    "tooltipPassInfo": {
+        "message": "Лозинка мора имати најмање 8 симбола"
+    },
+    "tooltipPassMatch": {
+        "message": "Лозинке се не подударају"
+    },
+    "tooltipFill": {
+        "message": "попуни"
+    },
+    "tooltipOpenFile": {
+        "message": "отвори датотеку"
+    },
+    "tooltipMakeScreenshot": {
+        "message": "сними екран"
+    },
+
+    "doneTitle": {
+        "message": "Сачувај снимак"
+    },
+    "editBtnDone": {
+        "message": "Готово"
+    },
+    "editBtnBack": {
+        "message": "Назад"
+    },
+    "editBtnNimbus": {
+        "message": "Сачувај у Nimbus"
+    },
+    "editBtnSave": {
+        "message": "Сачувај као слику"
+    },
+    "editBtnDrive": {
+        "message": "На Google Drive"
+    },
+    "editBtnCopy": {
+        "message": "Копирај у клипборд"
+    },
+    "editBtnPrint": {
+        "message": "Одштампај слику"
+    },
+
+    "nimbusBtnComment": {
+        "message": "напиши коментар и отпреми"
+    },
+    "nimbusCommentPlaceholder": {
+        "message": "напиши коментар о снимку"
+    },
+    "nimbusTitle": {
+        "message": "Пошаљи у Nimbus Note"
+    },
+    "nimbusInfo": {
+        "message": "Са Nimbus налогом можете коментарисати своје снимке екрана и делити их са својим пријатељима и колегама."
+    },
+
+    "nimbusHeaderLogin": {
+        "message": "Пријављивање"
+    },
+    "nimbusLabelScreenshotName": {
+        "message": "Назив снимка екрана"
+    },
+    "nimbusHeaderRegistration": {
+        "message": "Регистрација"
+    },
+    "nimbusHeaderRemindPass": {
+        "message": "Подсетник лозинке"
+    },
+    "nimbusLabelLogin": {
+        "message": "Пријави се"
+    },
+    "nimbusLabelPassword": {
+        "message": "Лозинка"
+    },
+    "nimbusLabelEmail": {
+        "message": "Е-пошта"
+    },
+    "nimbusLabelRetypePass": {
+        "message": "Унесите поново лозинку"
+    },
+    "nimbusLabelForgotPass": {
+        "message": "Заборавили сте лозинку? "
+    },
+
+    "nimbusLabelUsername": {
+        "message": "Корисничко име"
+    },
+    "nimbusLabelFolder": {
+        "message": "Фасцикла"
+    },
+    "nimbusLabelComment": {
+        "message": "Коментар"
+    },
+    "nimbusLabelPrivate": {
+        "message": "приватно"
+    },
+
+    "nimbusBtnMyUploads": {
+        "message": "Моје отпремљене датотеке"
+    },
+    "nimbusBtnStart": {
+        "message": "Опреми"
+    },
+
+    "nimbusBtnLogin": {
+        "message": "Пријава"
+    },
+    "nimbusBtnSignup": {
+        "message": "Направи налог"
+    },
+    "nimbusBtnRemind": {
+        "message": "Подсети"
+    },
+
+    "nimbusViewUploads": {
+        "message": "Погледај моје отпремљене датотеке на Nimbus"
+    },
+    "foldersLabel": {
+        "message": "Сачуваћете снимке екрана у:"
+    },
+
+    "limitUsage": {
+        "message": "Употреба:"
+    },
+    "limitOf": {
+        "message": "од"
+    },
+    "limitHref": {
+        "message": "Зашто је Nimbus Pro бољи?"
+    },
+    "limitNoSpace": {
+        "message": "На жалост, нећете бити у могућности да опремите датотеку, јер је <strong>ваше месечно ограничење од 100 мегабајта достигнуто</strong>."
+    },
+    "limitDescription": {
+        "message": "<strong>Можете прећи на Nimbus Pro</strong> да бисте повећали месечно ограничење на 1 гигабајт."
+    },
+    "limitGoToPro": {
+        "message": "Пређи на Nimbus Pro"
+    },
+
+    "gDriveSelectFolder": {
+        "message": "изабери фасциклу"
+    },
+    "gDriveTitle": {
+        "message": "Пошаљи на Google Drive"
+    },
+    "gDriveLabel": {
+        "message": "Изаберите фасциклу где желите да сачувате снимке екрана"
+    },
+    "gDriveMainFolder": {
+        "message": "Ово је главна фасцикла"
+    },
+    "gDriveNoItems": {
+        "message": "Нема ставки"
+    },
+    "gDriveBtnDone": {
+        "message": "Готово"
+    },
+    "welcomeUrl": {
+        "message": "http://help.everhelper.me/customer/portal/articles/1909151-nimbus-screenshot-app-for-google-chrome"
+    },
+    "newReleaseTitle": {
+        "message": "Добродошли у нову верзију<br>Nimbus Screenshot"
+    },
+    "newReleaseText": {
+        "message": "<li>Исправљене грешке у вези са снимањем прозора прегледача;</li><li>Исправљено неколико грешака у вези са снимањем видео записа;</li></li>"
+    },
+    "nimbusSlackTitleLogout": {
+        "message": "Logout Slack"
+    },
+    "popupFreeAccountTitle":  {
+        "message": "Unfortunately, the video size<br>exceeds 10 megabytes"
+    },
+    "popupFreeAccountText":   {
+        "message": "If you would like to upload<br><strong>video larger than 10 megabytes</strong>, you have to<br>upgrade your subscription to <strong>Nimbus Pro</strong>"
+    },
+    "popupFreeAccountGo":     {
+        "message": "Upgrade to Nimbus Pro"
+    },
+    "popupFreeAccountNo":     {
+        "message": "No, thanks"
+    }
+}

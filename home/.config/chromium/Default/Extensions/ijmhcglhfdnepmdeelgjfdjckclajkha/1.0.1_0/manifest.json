@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.diesiedleronline.de/?pid=ubi_100_033"
+      }
+   },
+   "description": "Die preisgekrönte Aufbaustrategieserie gibt es jetzt auch als kostenloses Browserspiel !",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPGrlu+E4lXRAsEU9+BhVFjjo8sEOYFXnF1RjjSc1Q2THqx5Rbz52/3xNPWb4farx9V8jk2jY4flHD4cCp9l8By2V++XCUozPSKeR9ukicvScumlKmrAwjGquQDGHsI67QmzdL7gsc2fGOUSQghJOIWe5e0xxLTnn/fBdXPHqHVwIDAQAB",
+   "name": "Die Siedler Online",
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}

@@ -1,0 +1,14 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store. Must be less than 132 characters.",
+      "message": "A HelloFax megkönnyíti a dokumentumok online aláírását és az online faxküldést. Soha többé nem kel kinyomtatnia, aláírnia, majd beszkennelnie egyetlen dokumentumot sem!"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store. Must be less than 45 characters.",
+      "message": "HelloFax: 5 ingyenes faxoldal"
+   },
+   "appShortName": {
+      "description": "The short title of the application, displayed in the web store. Must be less than 12 characters.",
+      "message": "HelloFax"
+   }
+}

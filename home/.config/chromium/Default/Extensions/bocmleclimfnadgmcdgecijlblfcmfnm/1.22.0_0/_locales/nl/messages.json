@@ -1,0 +1,14 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store. Must be less than 132 characters.",
+      "message": "HelloFax maakt het makkelijk om online documenten te ondertekenen en faxen te verzenden. U hoeft nooit meer documenten te printen, te ondertekenen en te scannen!"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store. Must be less than 45 characters.",
+      "message": "HelloFax: 5 Gratis Faxpagina's"
+   },
+   "appShortName": {
+      "description": "The short title of the application, displayed in the web store. Must be less than 12 characters.",
+      "message": "HelloFax"
+   }
+}

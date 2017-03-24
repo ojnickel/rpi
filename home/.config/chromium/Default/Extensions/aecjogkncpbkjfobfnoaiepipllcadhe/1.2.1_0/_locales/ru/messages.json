@@ -1,0 +1,434 @@
+{
+   "appDesc": {
+      "message": "Удобный редактор, с помощью которого можно быстро сделать скриншот и поделиться ссылкой на него."
+   },
+   "appName": {
+      "message": "Nimbus Screenshot App"
+   },
+   "captureHelperWindowTitle": {
+      "message": "Выберите один из экранов для снимка!"
+   },
+   "cropBtnCancel": {
+      "message": "Закрыть"
+   },
+   "cropBtnCopy": {
+      "message": "Копировать в буфер обмена"
+   },
+   "cropBtnEdit": {
+      "message": "В редактор!"
+   },
+   "cropBtnNimbus": {
+      "message": "Отправить в Nimbus"
+   },
+   "cropBtnSave": {
+      "message": "Сохранить"
+   },
+   "doneTitle": {
+      "message": "Сохранить скриншот"
+   },
+   "dropImageTitle": {
+      "message": "перетащите изображение сюда"
+   },
+   "editBtnBack": {
+      "message": "В редактор"
+   },
+   "editBtnCopy": {
+      "message": "В буфер обмена"
+   },
+   "editBtnDone": {
+      "message": "Готово"
+   },
+   "editBtnDrive": {
+      "message": "В Google Drive"
+   },
+   "editBtnNimbus": {
+      "message": "В Nimbus Note"
+   },
+   "editBtnPrint": {
+      "message": "Распечатать"
+   },
+   "editBtnSave": {
+      "message": "На диск"
+   },
+   "foldersLabel": {
+      "message": "Скриншот будет сохранен в папке"
+   },
+   "gDriveBtnDone": {
+      "message": "Готово"
+   },
+   "gDriveLabel": {
+      "message": "Выберите папку, в которой будет сохранен скриншот"
+   },
+   "gDriveMainFolder": {
+      "message": "Папка по умолчанию"
+   },
+   "gDriveNoItems": {
+      "message": "Пустая папка"
+   },
+   "gDriveSelectFolder": {
+      "message": "выбрать папку"
+   },
+   "gDriveTitle": {
+      "message": "Отправить в Google Drive"
+   },
+   "limitDescription": {
+      "message": "\u003Cstrong>Перейдите на план Nimbus Pro\u003C/strong> и вы сможете загружать до 1 гигабайта новой информации в месяц."
+   },
+   "limitGoToPro": {
+      "message": "Перейти к Nimbus Pro"
+   },
+   "limitHref": {
+      "message": "Почему Nimbus Pro лучше?"
+   },
+   "limitNoSpace": {
+      "message": "К сожалению вы \u003Cstrong>исчерпали свой месячный лимит\u003C/strong> в 100 мегабайт."
+   },
+   "limitOf": {
+      "message": "из"
+   },
+   "limitUsage": {
+      "message": "Использовано:"
+   },
+   "moreOptionsTitle": {
+      "message": "Нужно больше способов, чтобы сделать скриншот? Используйте"
+   },
+   "nimbusBad": {
+      "message": "Плохо"
+   },
+   "nimbusBeBetter": {
+      "message": "Средненько"
+   },
+   "nimbusBtnComment": {
+      "message": "написать комментарий и отправить"
+   },
+   "nimbusBtnLogin": {
+      "message": "Войти"
+   },
+   "nimbusBtnMyUploads": {
+      "message": "Открыть Nimbus Note"
+   },
+   "nimbusBtnRemind": {
+      "message": "Напомнить"
+   },
+   "nimbusBtnSignup": {
+      "message": "Создать аккаунт"
+   },
+   "nimbusBtnStart": {
+      "message": "Отправить"
+   },
+   "nimbusCommentPlaceholder": {
+      "message": "комментировать скриншот"
+   },
+   "nimbusDid": {
+      "message": "Уже оценил"
+   },
+   "nimbusGood": {
+      "message": "Хорошо!"
+   },
+   "nimbusHeaderLogin": {
+      "message": "Вход в Nimbus"
+   },
+   "nimbusHeaderRegistration": {
+      "message": "Регистрация"
+   },
+   "nimbusHeaderRemindPass": {
+      "message": "Напомнить пароль"
+   },
+   "nimbusInfo": {
+      "message": "С помощью Nimbus вы сможете комментировать скриншоты и отправлять их друзьям и коллегам."
+   },
+   "nimbusLabelComment": {
+      "message": "Комментарий"
+   },
+   "nimbusLabelEmail": {
+      "message": "Ваш e-mail"
+   },
+   "nimbusLabelFolder": {
+      "message": "Папка"
+   },
+   "nimbusLabelForgotPass": {
+      "message": "Забыли пароль ? "
+   },
+   "nimbusLabelLogin": {
+      "message": "Логин"
+   },
+   "nimbusLabelPassword": {
+      "message": "Пароль"
+   },
+   "nimbusLabelPrivate": {
+      "message": "приватный"
+   },
+   "nimbusLabelRetypePass": {
+      "message": "Повторить пароль"
+   },
+   "nimbusLabelUsername": {
+      "message": "Аккаунт"
+   },
+   "nimbusRate": {
+      "message": "Нравится Nimbus Screenshot ? Поставьте ему оценку!"
+   },
+   "nimbusTitle": {
+      "message": "Отправить в Nimbus"
+   },
+   "nimbusViewUploads": {
+      "message": "Открыть Nimbus Note"
+   },
+   "notificationCopy": {
+      "message": "Изображение успешно скопироано в буфер обмена"
+   },
+   "notificationDataIncorrect": {
+      "message": "Вы ввели неверные данные. Попробуйте снова."
+   },
+   "notificationEmailFail": {
+      "message": "На данный e-mail уже создан аккаунт"
+   },
+   "notificationEmailIncorrect": {
+      "message": "Неверный e-mail. Попробуйте снова"
+   },
+   "notificationInsertInfo": {
+      "message": "Вы можете вставить только изображение"
+   },
+   "notificationKeyIncorrect": {
+      "message": "Вы ввели неправильный код. Попробуйте снова"
+   },
+   "notificationLoginFail": {
+      "message": "Логин или пароль неправильные. Попробуйте снова."
+   },
+   "notificationPassChanged": {
+      "message": "Пароль изменен"
+   },
+   "notificationReachedLimit": {
+      "message": "Вы достигли месячный лимит трафика (100 МБ). Чтобы продолжить, вы должны приобрести Nimbus Pro."
+   },
+   "notificationRegisterFail": {
+      "message": "При создании аккаунт произошла ошибка. Попробуйте снова."
+   },
+   "notificationRestoreSent": {
+      "message": "Инструкция по восстановлению была отправлена на ваш e-mail."
+   },
+   "notificationUploaded": {
+      "message": "Отправка завершена"
+   },
+   "notificationUrlCopied": {
+      "message": "Ссылка была скопирована в буфер обмена"
+   },
+   "notificationWrong": {
+      "message": "Упс, что то пошло не так!. Попробуйте снова."
+   },
+   "notificationWrongEditor": {
+      "message": "К сожалению, могут быть проблемы с изображениями слишком большого размера"
+   },
+   "notificationWrongInsert": {
+      "message": "Вы не сможете вставить картинку, так как буфер обмена пустой"
+   },
+   "optionsCanUse": {
+      "message": "Доступные обозначения"
+   },
+   "optionsEditor": {
+      "message": "Настройки редактора"
+   },
+   "optionsEnableKey": {
+      "message": "Разрешить 'Горячие клавиши'"
+   },
+   "optionsFormat": {
+      "message": "Формат"
+   },
+   "optionsFrom": {
+      "message": "от"
+   },
+   "optionsHideFixedElements": {
+      "message": "Скрывать фиксированные элементы"
+   },
+   "optionsIcon": {
+      "message": "Настройки кнопки"
+   },
+   "optionsIconAddonBar": {
+      "message": "Показывать иконку в статус-баре"
+   },
+   "optionsIconMainBar": {
+      "message": "Показывать кнопку на панели навигации "
+   },
+   "optionsNameTpl": {
+      "message": "Шаблон названия файла:"
+   },
+   "optionsNumbers": {
+      "message": "Показывать цифры возле фигур"
+   },
+   "optionsQuality": {
+      "message": "Качество изображения"
+   },
+   "optionsQuickCaptureEnable": {
+      "message": "Включить быстрый скриншот"
+   },
+   "optionsQuickCaptureTitle": {
+      "message": "Настройки скриншота"
+   },
+   "optionsSave": {
+      "message": "Настройки сохранения"
+   },
+   "optionsSaveAs": {
+      "message": "Показывать диалоговое окно 'Сохранить как'"
+   },
+   "optionsSaveCropPosition": {
+      "message": "Сохранить позицию выделенной области"
+   },
+   "optionsShadows": {
+      "message": "Показывать тени"
+   },
+   "optionsShortcut": {
+      "message": "'Горячие' клавиши"
+   },
+   "optionsTitle": {
+      "message": "Настройки скриншотов"
+   },
+   "panelActions": {
+      "message": "Действия"
+   },
+   "panelParameters": {
+      "message": "Параметры"
+   },
+   "panelSize": {
+      "message": "Размер"
+   },
+   "panelTools": {
+      "message": "Инструменты"
+   },
+   "popupBtnAndroid": {
+      "message": "Версия для Android"
+   },
+   "popupBtnArea": {
+      "message": "Фрагмент страницы"
+   },
+   "popupBtnBlank": {
+      "message": "Чистый лист"
+   },
+   "popupBtnDesktop": {
+      "message": "Захват с рабочего стола"
+   },
+   "popupBtnEnableCopy": {
+      "message": "в буфер"
+   },
+   "popupBtnEnableDownload": {
+      "message": "загрузить"
+   },
+   "popupBtnEnableEdit": {
+      "message": "редактировать"
+   },
+   "popupBtnEnableSave": {
+      "message": "сохранить как"
+   },
+   "popupBtnEntire": {
+      "message": "Скриншот всей страницы"
+   },
+   "popupBtnOptions": {
+      "message": "Настройки"
+   },
+   "popupBtnScroll": {
+      "message": "Фрагмент + прокрутить"
+   },
+   "popupBtnVisible": {
+      "message": "Видимая часть страницы"
+   },
+   "popupBtnWindow": {
+      "message": "Скриншот всего экрана"
+   },
+   "popupTitle": {
+      "message": "Виды скриншотов"
+   },
+   "tooltipArrow": {
+      "message": "стрелка"
+   },
+   "tooltipBlur": {
+      "message": "размытие"
+   },
+   "tooltipColor": {
+      "message": "изменить цвет"
+   },
+   "tooltipCopy": {
+      "message": "Копировать в буфер обмена"
+   },
+   "tooltipCrop": {
+      "message": "кадрировать"
+   },
+   "tooltipEllipse": {
+      "message": "круг"
+   },
+   "tooltipFill": {
+      "message": "заливка"
+   },
+   "tooltipLine": {
+      "message": "линия"
+   },
+   "tooltipLineWidth": {
+      "message": "изменить размер линий и текста"
+   },
+   "tooltipLogout": {
+      "message": "выйти из аккаунта"
+   },
+   "tooltipMakeScreenshot": {
+      "message": "сделать скриншот"
+   },
+   "tooltipNotAuthorized": {
+      "message": "Вы ещё не вошли в аккаунт"
+   },
+   "tooltipNote": {
+      "message": "стикер"
+   },
+   "tooltipNumbers": {
+      "message": "показать цифры"
+   },
+   "tooltipOpenFile": {
+      "message": "открыть изображение"
+   },
+   "tooltipPassInfo": {
+      "message": "Пароль должен содержать не менее 8-ми символов"
+   },
+   "tooltipPassMatch": {
+      "message": "Пароли не совпадают"
+   },
+   "tooltipPen": {
+      "message": "карандаш"
+   },
+   "tooltipRectangle": {
+      "message": "прямоугольник"
+   },
+   "tooltipRedo": {
+      "message": "повторить последнее действие"
+   },
+   "tooltipResize": {
+      "message": "изменить размер"
+   },
+   "tooltipShadow": {
+      "message": "тень"
+   },
+   "tooltipShortUrl": {
+      "message": "Короткая ссылка"
+   },
+   "tooltipText": {
+      "message": "текст"
+   },
+   "tooltipUndo": {
+      "message": "отменить последнее действие"
+   },
+   "tooltipUndoAll": {
+      "message": "вернутся к исходному изображению"
+   },
+   "tooltipUploadTo": {
+      "message": "Отправить в"
+   },
+   "tooltipWrongEmail": {
+      "message": "Неверный e-mail"
+   },
+   "tooltipZoom": {
+      "message": "масштаб"
+   },
+   "tooltipZoomMinus": {
+      "message": "уменьшить -"
+   },
+   "tooltipZoomPlus": {
+      "message": "увеличить +"
+   },
+   "welcomeUrl": {
+      "message": "http://help.everhelper.me/customer/portal/articles/1924992-nimbus-screenshot-app%D0%B4%D0%BB%D1%8F-google-chrome"
+   }
+}

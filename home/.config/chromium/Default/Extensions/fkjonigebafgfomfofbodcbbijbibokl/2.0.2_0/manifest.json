@@ -1,0 +1,25 @@
+{
+   "background": {
+      "scripts": [ "js/main.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "images/icon.19.png",
+         "38": "images/icon.38.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Show my IP"
+   },
+   "description": "Easily check your IP address with one simple click",
+   "icons": {
+      "128": "images/icon.128.png"
+   },
+   "incognito": "spanning",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDbvmT/wlGRGmetEiY6CZFWOWpOw+Rmn2iQRGkoseRb/DpKA2yl+nJhuFx5433ggqE5kWjBGLTmxSeRmz1e7cqbMMBZ5ubDx3mpjKiDx6YxvU4ujk0AJRhqoIk1M+dWT2uAoiqs7mcTO+NQt5GY/CEtyuoJD2tyAjPG+tOHkaYtNQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "17",
+   "name": "HMA! IP Checker",
+   "permissions": [ "http://*.hidemyass.com/", "http://*.hmageo.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.2"
+}

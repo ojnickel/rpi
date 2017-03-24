@@ -1,0 +1,916 @@
+.wait * {
+    cursor: progress !important;
+}
+
+#panel {
+    border:   0;
+    position: relative;
+}
+
+#photo {
+    padding:  50px 0 12px;
+    position: relative;
+}
+
+#editpanel {
+    position: fixed;
+    top:      0;
+    left:     0;
+    width:    100%;
+    z-index:  1000;
+}
+
+#editcanva {
+    padding-right: 8px;
+    /*margin: 0 auto;*/
+    /*background-image: url('../css/image-checkers.png');*/
+}
+
+#editcanva #canvasfon {
+    box-shadow: 0 0 5px #000;
+}
+
+#editcanva #canvascurrent {
+    opacity: 0.9;
+}
+
+#editcanva.drop {
+    -webkit-filter: grayscale(100%);
+}
+
+#editcanva.drop #canvasfon {
+    box-shadow: 0 0 5px #FFF;
+}
+
+#drop-file {
+    margin:         0;
+    width:          98%;
+    height:         100%;
+    box-sizing:     border-box;
+    position:       absolute;
+    z-index:        5;
+    vertical-align: middle;
+    text-align:     center;
+}
+
+#drop-file button {
+    display:        inline-block;
+    vertical-align: top;
+    margin:         0 5px;
+}
+
+#drop-file .receiver {
+    margin:         20px;
+    border:         dashed 2px #DDD;
+    border-radius:  5px;
+    padding:        54px;
+    color:          #1AABC5;
+    text-transform: uppercase;
+    font-size:      26px;
+}
+
+#drop-file .receiver img {
+    border:        dashed 2px #1AABC5;
+    border-radius: 5px;
+    display:       block;
+    margin:        0 auto;
+    margin-bottom: 20px;
+}
+
+#drop-file .upwards {
+    margin-top: 15px;
+    color:      #5D5D5D;
+}
+
+#drop-file .upwards a {
+    color: #1AABC5;
+}
+
+#editcanva.drop #drop-file .receiver {
+    border: dashed 2px #1AABC5;
+}
+
+#editcanva textarea {
+    position:         absolute;
+    z-index:          50;
+    background-color: transparent;
+    top:              -500px;
+    left:             -500px;
+    font-family:      Arial;
+    line-height:      100%;
+    outline:          none;
+    /*text-shadow: 1px 1px 5px #333;*/
+    overflow:         hidden;
+    border:           0;
+    resize:           none;
+    margin:           0;
+    padding:          0;
+}
+
+.sticker-text {
+    color:       black;
+    font-size:   14px;
+    width:       180px;
+    height:      52px;
+    text-align:  center;
+    text-shadow: none !important;
+    box-shadow:  0 0 1px #000;
+}
+
+.jcrop-holder {
+    background-color: transparent !important;
+}
+
+#message {
+    font-size:  14px;
+    text-align: center;
+    color:      #FFF;
+    display:    none;
+    margin:     20px 0;
+}
+
+#message a {
+    color: #B8C9FF;
+    padding-right: 13px;
+    background:    url(../images/external.png) no-repeat right 5px transparent;
+}
+
+#linked input {
+    width:         380px;
+    height:        16px;
+    /*padding: 2px;*/
+    padding:       2px 50px 2px 2px;
+    text-align:    center;
+    color:         #333;
+    border:        1px solid #CAC9C9;
+    outline:       none;
+    float:         left;
+    margin-left:   128px;
+    border-radius: 3px;
+}
+
+#linked button {
+    height:  18px;
+    width:   18px;
+    border:  none;
+    margin:  2px 50px 0px -44px;
+    float:   left;
+    /* background: #fff url(../images/copy16.png) center center no-repeat;*/
+    opacity: 0.5;
+}
+
+#copy_URL {
+    background: #FFF url(../images/copy16.png) center center no-repeat;
+}
+
+#short_URL {
+    background: #FFF url(../images/copy17.png) center center no-repeat;
+}
+
+#linked button:hover {
+    cursor:  pointer;
+    opacity: 0.8;
+}
+
+#uploadimg {
+    background: url('loading.gif') center no-repeat;
+    display:    none;
+    height:     10px;
+    margin:     25px auto;
+}
+
+#indicator {
+    height:    20px;
+    margin:    -20px auto 0;
+    min-width: 200px;
+}
+
+#indicator div {
+    position:    relative;
+    height:      20px;
+    font-weight: bold;
+    color:       #222;
+    font-size:   14px;
+    line-height: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    opacity:     0.8;
+}
+
+#indicator span {
+    padding:       2px 5px;
+    background:    #DDD;
+    border-radius: 2px;
+}
+
+.screensize {
+    float: left;
+}
+
+.screenweight {
+    float: right;
+}
+
+#nimbus-comment {
+    margin:   5px auto;
+    overflow: hidden;
+    /*border-top: 1px solid #fff;*/
+    /*border-bottom: 1px solid #fff;*/
+    /*padding: 5px 0;*/
+    /*background-color: #fff;*/
+}
+
+#nimbus-comment p {
+    font-size:   15px;
+    color:       #FFF;
+    font-weight: bold;
+    margin:      5px 0;
+}
+
+#nimbus-comment button {
+    margin-right:  0;
+    width:         auto;
+    padding-right: 15px;
+}
+
+#nimbus-comment textarea {
+    height:     100px;
+    width:      100%;
+    resize:     none;
+    opacity:    0.95;
+    margin:     5px auto 0 auto;
+    border:     0;
+    padding:    5px;
+    box-sizing: border-box;
+}
+
+/*########### select folder ##########*/
+
+.panel_settings {
+    /* float: left; */
+    position:      absolute;
+    top:           100%;
+    left:          0;
+    right:         0;
+    /* width: 147px; */
+    margin-top:    -7px;
+    /* margin-left: -10px; */
+    border-radius: 0 0 5px 5px;
+    box-shadow:    0 1px 2px rgba(0, 0, 0, 0.3);
+    display:       none;
+    /* position: relative; */
+    z-index:       4;
+    /* margin-bottom: -500px; */
+    /* overflow: hidden; */
+    /* border-top: 5px solid transparent; */
+}
+
+.panel_settings > div {
+    border-radius: 0 0 5px 5px;
+    background:    #E5E5E5;
+    box-shadow:    0 1px 2px rgba(0, 0, 0, 0.3);
+    width:         100%;
+    padding:       12px 5px 6px 5px;
+    box-sizing:    border-box;
+}
+
+.panel_settings span {
+    text-align:    left;
+    height:        18px;
+    overflow:      hidden;
+    display:       block;
+    margin-right:  5px;
+    white-space:   nowrap;
+    text-overflow: ellipsis;
+    /*max-width: 155px;*/
+}
+
+.panel_settings span.title {
+    cursor: pointer;
+}
+
+.panel_settings span.title:hover {
+    padding-right: 16px;
+}
+
+.panel_settings span.title:hover:after {
+    background:        url(../images/edit_pane_btn.png) no-repeat -104px 0;
+    width:             17px;
+    height:            19px;
+    position:          absolute;
+    content:           '';
+    right:             5px;
+    -webkit-transform: scale(0.7);
+    -moz-transform:    scale(0.7);
+    -ms-transform:     scale(0.7);
+    -o-transform:      scale(0.7);
+    transform:         scale(0.7);
+}
+
+.panel_settings label * {
+    display:             inline-block;
+    margin-top:          3px;
+    -webkit-user-select: none;
+    -moz-user-select:    none;
+    -ms-user-select:     none;
+    user-select:         none;
+}
+
+.panel_settings label input {
+    height: 16px;
+    margin: 0;
+}
+
+.panel_settings .logout {
+    display:    block;
+    margin-top: 3px;
+    float:      right;
+}
+
+.popup_bg {
+    position:         fixed;
+    top:              0;
+    left:             0;
+    bottom:           0;
+    right:            0;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index:          3000;
+    display:          none;
+}
+
+.popup_bg p {
+    margin:      5px 0;
+    color:       #1694AB;
+    font-weight: bold;
+    font-size:   13px;
+}
+
+.popup_bg a {
+    color:  #1694AB;
+    height: 20px;
+}
+
+.popup_bg img {
+    margin-top: 1px;
+}
+
+.file_manager_title {
+    margin-bottom: 8px;
+}
+
+.file_manager_title i {
+    background:   url(../images/btn_icons.png) no-repeat 0 0;
+    display:      block;
+    float:        left;
+    height:       24px;
+    margin-right: 6px;
+    margin-top:   -4px;
+    width:        24px;
+}
+
+.file_manager_title i.google {
+    background-position: -48px -24px;
+}
+
+.file_manager_title i.nimbus {
+    background-position: 4px -53px;
+}
+
+.btn_cancel {
+    float:      right;
+    background: url(../images/close.png) no-repeat center center;
+    width:      15px;
+    height:     15px;
+    cursor:     pointer;
+    outline:    none;
+    border:     none;
+    margin-top: -5px;
+}
+
+.btn_cancel:hover {
+    opacity: 0.8;
+}
+
+.popup_content {
+    position:         absolute;
+    top:              50%;
+    left:             50%;
+    z-index:          5000;
+    width:            580px;
+    transform:        translate(-50%, -50%);
+    background-color: #FFF;
+    border:           1px solid #E9E9E9;
+    box-shadow:       0 2px 4px 0 rgba(0, 0, 0, 0.50);
+    padding:          20px;
+    border-radius:    2px;
+    overflow:         hidden;
+    color:            #5D5D5D;
+}
+
+/*.popup_content > div {*/
+/*background-color: #FFF;*/
+/*padding:          20px;*/
+/*width: 380px;*/
+/*height: 380px;*/
+/*border-radius:    2px;*/
+/*overflow:         hidden;*/
+/*}*/
+
+.popup_content .btn_cancel {
+    position: absolute;
+    top:      20px;
+    right:    20px;
+    margin:   0;
+}
+
+.popup_content .nimbus_title {
+    /*margin-top:    10px;*/
+    margin-bottom: 20px;
+}
+
+.popup_content .submit {
+    margin:     10px 0 0;
+    /*overflow:   hidden;*/
+    width:      100%;
+    text-align: center;
+}
+
+.folders-list {
+    box-shadow: 0 0 1px #333;
+    height:     280px;
+    margin:     5px 0;
+    padding:    3px 5px;
+}
+
+ul.folders {
+    height:                230px;
+    overflow-y:            auto;
+    list-style:            none;
+    -webkit-user-select:   none;
+    -webkit-margin-after:  0;
+    -webkit-margin-before: 0;
+    -webkit-margin-start:  0;
+    -webkit-padding-start: 0;
+}
+
+.loading_folders {
+    background: url(../images/loading-v1.gif) no-repeat 50% 50%;
+    opacity:    0.5;
+    overflow:   hidden;
+}
+
+.folders span {
+    margin:  10px;
+    display: block;
+}
+
+.folders li {
+    white-space:   nowrap;
+    text-overflow: ellipsis;
+    overflow:      hidden;
+    cursor:        pointer;
+    padding:       3px 3px 3px 30px;
+    margin:        2px 0;
+    background:    url(../images/folder_points.png) no-repeat 13px 8px;
+}
+
+.folders li:hover {
+    background-color: #E9E9E9;
+}
+
+.folders li.active {
+    background:    url(../images/folder_points.png) no-repeat 6px 7px, url(../images/yes.png) no-repeat 97% 50% #E9E9E9 !important;
+    padding-right: 20px !important;
+}
+
+#parent {
+    white-space: nowrap;
+    overflow:    hidden;
+    cursor:      pointer;
+    padding:     2px 5px;
+    margin:      2px 0;
+    height:      18px;
+}
+
+#parent:hover {
+    background-color: #E9E9E9;
+}
+
+#current {
+    white-space:   nowrap;
+    text-overflow: ellipsis;
+    overflow:      hidden;
+    margin-bottom: 2px;
+    padding:       4px 0 2px 20px;
+    background:    url(../images/folder_points.png) no-repeat 5px -25px, url(../images/yes.png) no-repeat 97% 50% #E9E9E9;
+}
+
+.future_folder {
+    margin-bottom: 5px;
+    text-align:    center;
+    white-space:   nowrap;
+    overflow:      hidden;
+    width:         100%;
+    text-overflow: ellipsis;
+}
+
+#nimbus-future-folder.future_folder {
+    margin: 20px 0 10px 0;
+}
+
+#btn_select, #nimbus-btn-select {
+    float:         none;
+    margin:        0 auto;
+    border-radius: 3px;
+}
+
+/*#user-panel>div {*/
+/*-webkit-transition: all 1s ease;*/
+/*-webkit-transform: translate3D(0, 0, 0);*/
+/*-webkit-transform-style: preserve-3d;*/
+/*-webkit-transform-origin: right center;*/
+/*-webkit-backface-visibility: hidden;*/
+/*}*/
+
+/*#user-panel .flip {*/
+/*-webkit-transform: translateX( -100% ) rotateY( -180deg );*/
+/*}*/
+
+.nimbus_title .nimbus {
+    background: url(../images/nimbus_logo_dark.png) no-repeat 0 0;
+    display:    block;
+    float:      left;
+    height:     24px;
+    margin-top: -4px;
+    width:      24px;
+}
+
+.nimbus_header {
+    text-align:     center;
+    text-transform: uppercase;
+    font-size:      18px;
+    color:          #1694AB;
+    font-weight:    bold;
+}
+
+.nimbus_form {
+    width: 230px;
+}
+
+.submit.nimbus-submit button {
+    border-radius: 3px;
+    width:         150px;
+    text-align:    center;
+    margin:        10px auto 0;
+}
+
+.nimbus_form {
+    width: 200px;
+    float: left;
+}
+
+.content {
+    position: relative;
+}
+
+#nimbus-limit {
+    width:          210px;
+    margin:         30px 0 0;
+    font-size:      11px;
+    float:          left;
+    letter-spacing: -0.6px;
+    min-height:     60px;
+}
+
+button.save_settings {
+    width:  100px;
+    float:  right;
+    margin: 40px 0 0;
+}
+
+#nimbus-pro .content {
+    text-align: center;
+}
+
+#nimbus-pro .content img {
+    margin: 0 auto 15px;
+}
+
+.nimbus-pro-info {
+    padding:   5px 30px;
+    font-size: 14px;
+}
+
+.nimbus-pro-info.big {
+    font-size: 18px;
+}
+
+.submit.nimbus-submit a {
+    margin-top: 10px;
+    display:    block;
+}
+
+.submit.nimbus-submit button#save-to-nimbus {
+    zoom:  1.2;
+    float: none;
+}
+
+.submit.nimbus-submit button#my-uploads-nimbus {
+    /*float: left;*/
+}
+
+.submit.nimbus-submit button.op {
+    background-image: url(../images/save_settings_bg_gr.png);
+    border-color:     #C0C0C0;
+    color:            #606060;
+}
+
+.submit.nimbus-submit button i.icon {
+    margin-right: 0;
+}
+
+.nimbus_info {
+    background:  url(../images/nimbus_cloud.png) no-repeat center top;
+    width:       280px;
+    float:       right;
+    height:      70px;
+    text-align:  center;
+    padding-top: 120px;
+    margin:      20px 20px 0 0;
+}
+
+.nimbus_right {
+    width: 320px;
+    float: right;
+}
+
+.popup_bg p {
+    margin:      5px 0;
+    color:       #1694AB;
+    font-weight: bold;
+    font-size:   13px;
+}
+
+.popup_bg a {
+    color:  #1694AB;
+    height: 20px;
+}
+
+.nimbus_form label {
+}
+
+.nimbus_form input {
+    margin:        5px 0;
+    border-radius: 0;
+    line-height:   16px;
+    width:         100%;
+    border:        1px solid #CCC;
+    padding:       3px 5px;
+    box-sizing:    border-box;
+}
+
+.nimbus_form .nimbus_input img {
+    display:      block;
+    margin-right: 4px;
+    float:        left;
+}
+
+#user-panel input {
+    width:          100%;
+    height:         30px;
+    padding:        3px 5px;
+    border-radius:  2px;
+    vertical-align: middle;
+    color:          #666;
+    font-weight:    bold;
+    border:         1px solid #CCC;
+    outline:        none;
+    margin:         10px auto;
+    display:        block;
+    box-sizing:     border-box;
+}
+
+#user-panel input.wrong {
+    box-shadow: 0 0 3px #FE0000 !important;
+}
+
+#user-panel input:focus {
+    box-shadow: 0 0 3px #0094FF;
+}
+
+#login-panel {
+}
+
+#login-panel #forgot-pass {
+    font-size:       11px;
+    margin-top:      5px;
+    display:         block;
+    text-decoration: none;
+}
+
+#register-panel {
+    display: none;
+}
+
+#authorized-panel {
+    display: none;
+}
+
+.rate-message {
+    position:      fixed;
+    top:           40px;
+    left:          0;
+    right:         0;
+    /*height:        47px;*/
+    width:         320px;
+    border:        2px solid #666;
+    border-radius: 5px;
+    box-shadow:    0 0 5px #000;
+    z-index:       6000;
+    background:    #FFF;
+    margin:        auto;
+    text-align:    center;
+    display:       none;
+}
+
+.rate-message p {
+    margin: 5px 0;
+}
+
+.rate-message p.title {
+    color:       #1694AB;
+    font-weight: bold;
+}
+
+.rate-message a {
+    margin: 0 10px;
+    color:  #2D2D2D;
+}
+
+#nimbus-account-popup .nsc-popup-box {
+    background-color: #359FB7;
+}
+
+#nimbus-account-popup .nimbus_note_logo {
+    background: url("../images/nimbus_note_logo.png") no-repeat center;
+    width:      254px;
+    height:     92px;
+    margin:     0 auto 25px;
+    border:     none;
+}
+
+#nimbus-account-popup .nimbus_account_info {
+    list-style-type: none;
+    font-size:       16px;
+    margin:          0;
+    padding:         0;
+    text-align:      left;
+    line-height:     26px;
+}
+
+#nimbus-account-popup .nimbus_account_info i {
+    display:        inline-block;
+    vertical-align: bottom;
+    height:         14px;
+    width:          14px;
+    margin:         0 10px 5px 0;
+    background:     url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAMAAAAolt3jAAAAOVBMVEUAAAD///////////////////////////////////////////////////////////////////////8KOjVvAAAAEnRSTlMA8+nnvLSunYZbVkE6Mi4WBQN5AbszAAAATUlEQVQI123ONxbAIAwEUcnkHO5/WC8PYzVM97uhS6PGWMdR4ok4bYX5FZba/GugF3pQCRXIQgat0IJZmAnpI02rbrZMp11xz+PK5f4F+5gHQaVZMdsAAAAASUVORK5CYII=) no-repeat center;
+}
+
+#nimbus-account-popup .nimbus_account_create {
+    height:           44px;
+    width:            260px;
+    background-color: #3E4849;
+    border-radius:    5px;
+    border:           none;
+    outline:          none;
+    color:            #FFF;
+    font-size:        16px;
+}
+
+#nimbus-account-popup button.create_account:hover {
+    background-color: #313738;
+}
+
+.sp-replacer.sp-light {
+    float:       left;
+    width:       33px;
+    height:      22px;
+    font-size:   9px;
+    color:       #5D5D5D;
+    line-height: 18px;
+    padding-top: 2px;
+    margin-top:  6px;
+    margin-left: 5px;
+    border:      1px solid transparent;
+}
+
+.sp-replacer .sp-preview {
+    box-shadow:    1px 1px 1px rgba(0, 0, 0, 0.5) inset;
+    width:         16px;
+    margin-left:   4px;
+    display:       block;
+    overflow:      hidden;
+    text-overflow: ellipsis;
+    white-space:   nowrap;
+    text-align:    center;
+    margin-top:    1px;
+    height:        18px;
+    border:        none;
+}
+
+.drawing_tools .sp-replacer {
+    border-radius: 5px;
+    padding:       2px;
+}
+
+.drawing_tools .sp-replacer:hover {
+    border: 1px solid #CAC9C9;
+}
+
+.drawing_tools .sp-replacer.sp-active {
+    border:     1px solid #CAC9C9;
+    background: #E3E3E3;
+}
+
+.sp-container {
+    border:        none !important;
+    box-shadow:    0 1px 2px rgba(0, 0, 0, 0.3);
+    background:    #E3E3E3 !important;
+    border-radius: 0 0 5px 5px !important;
+}
+
+.new-release-popup {
+    /*display: block;*/
+}
+
+.new-release-popup .popup_content {
+    top: 25%;
+}
+
+.new-release-popup h2 {
+    color:          #1694AB;
+    font-size:      16px;
+    text-align:     center;
+    margin:         0 0 10px;
+    text-transform: uppercase;
+}
+
+.preview-box {
+    width:  680px;
+    margin: 20px auto 0;
+}
+
+.preview-box.slack {
+    width: 885px;
+}
+
+.slack-box {
+    float:       right;
+    width:       190px;
+    margin-left: 15px;
+}
+
+.slack-container {
+    padding:          10px;
+    background-color: #393939;
+}
+
+.slack-panel-show {
+    margin-top: 10px;
+    border:     none;
+    background: none;
+    color:      #999;
+    text-align: center;
+}
+
+.slack-box h3 {
+    color:       #E7E7E7;
+    font-weight: normal;
+    margin:      0 10px 10px;
+    text-align:  left;
+}
+
+.slack-box ul {
+    margin:  0 0 0 20px;
+    padding: 0;
+}
+
+.slack-box li {
+    margin:     0 0 10px 0;
+    padding:    0;
+    list-style: none;
+    color:      #F5F5F5
+}
+
+.clearfix {
+    clear: both;
+}
+
+#nimbus_limit_free_account .btn_cancel {
+    margin: -15px -15px 0 0;
+}
+
+#nimbus_limit_free_account .popup_content {
+    background-color: #FFF;
+    padding:          20px;
+}

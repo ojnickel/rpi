@@ -1,0 +1,46 @@
+.nimbus-record-mouse {
+    pointer-events:    none;
+    width:             17px;
+    height:            28px;
+    position:          fixed;
+    opacity:           .8;
+    left:              0;
+    top:               0;
+    -webkit-transform: translate(-100px, -100px) translateZ(0);
+    z-index:           2147483647;
+}
+
+.nimbus-record-mouse:before {
+    content:         '';
+    display:         block;
+    position:        absolute;
+    left:            0;
+    top:             0;
+    right:           0;
+    bottom:          0;
+    background:      url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAcCAYAAACH81QkAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wYTEAki+tRQVgAAArZJREFUOMudlT1IW1EUx395ee/lJWqtRgPxIyCiGWol1EFLS4pQFa1IKXUJCoKWgC4OVQuhDmrokpQMpeAgKh1KRd2sQyoUbcEiFbu1AaW4OIi6FIwWczpUi/hRzPvDXe655wf3f865F03Tcu12+y+r1erGpBRVVTu7uroyfD7fd+CRKYiI2EtKShgdHb1WWFgYAe6lDQFERKiqqmJkZKQkLy9vAHCnC0FEAAgEAvT19d3NzMx8AqhpQU6k6zrBYDArEAj0K4rSbQoCkJ2dzfDwcIbf738BdJqCALhcLiYnJx1FRUWvgIemIAAej4f5+XlD07S3gM8UBKCiooLZ2VkD+AhkmYIANDc3E41G7UCfaQhAb2+vHgwGB4BnpiGKohAOh/WWlpYQ0H02T7lqLzidTsLhcGZ1dfUQ8NgU5MTooaEhZ2lp6UvgTnt7+9+AYRjPI5GIpKOxsTFxu93jgM5V5mN6eppEIoHNZsPr9ZKTk0NtbS1tbW0dExMTq9vb268vhCwsLFBZWUl+fj4FBQW0trZ+zs3NnQNuWSyW6xaLpUxE5pPJ5Dvg6Nx1lpeXpby8fCkWi+0eHByIiIjX690DCk/5qACWC41dW1sjFAp9SiQSkampqd39/X0Aenp6HEDH8bHU8ZJ/iYZhDEajUdnY2JDGxsYvwP3j0NLq6qqIiGxtbYmmaYnLfLOqqnqjuLj4QTwe/zozMzNYX1//YX19XYDfDoejsaGhQbNarezs7KRWVlYSwI9zFJvNVuB2u2cAv8fj0U+FMlwu11YymZRUKiXxeFyA8f9VUr9k/83c3JyIiGxuborf7/8GlKf7kNfU1dWJiMjh4aHEYrEjoD/dAVxeXFz8ube3h6ZpqKqqGIZx83R5r6qnTU1NUlNTI06n872mabfNfHBWXddrVVUtO9tkJ/oDwAAY4e60bFcAAAAASUVORK5CYII=') no-repeat;
+    background-size: 80%;
+}
+
+.nimbus-record-mouse:after {
+    content:            '';
+    position:           absolute;
+    top:                -15px;
+    left:               -15px;
+    width:              30px;
+    height:             30px;
+    border:             3px solid rgba(0, 122, 255, 0.5);
+    border-radius:      50%;
+    -webkit-transition: -webkit-transform linear .1s;
+    -webkit-transform:  scale(0);
+}
+
+.nimbus-record-mouse.animate:before {
+    -webkit-transition: -webkit-transform linear .1s;
+    -webkit-transform:  rotateX(0deg);
+}
+
+.nimbus-record-mouse.down:after {
+    -webkit-transform:  scale(2);
+    -webkit-transition: none;
+}

@@ -1,0 +1,15 @@
+<script>
+    var winOpener = window.opener || window.parent;
+    console.log(winOpener);
+    if (winOpener) {
+        if (winOpener.postMessage) {
+            winOpener.postMessage({
+                a: 'openid-auth-completed'
+            }, '*');
+        }
+        else {
+            winOpener.location.reload();
+        }
+    }
+</script>
+<!--<script>window.close()</script>-->

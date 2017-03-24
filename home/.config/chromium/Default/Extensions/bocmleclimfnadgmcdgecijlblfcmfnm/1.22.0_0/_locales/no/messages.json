@@ -1,0 +1,14 @@
+{
+  "appName": {
+    "message": "HelloFax: 5 gratis fakssider",
+    "description": "The title of the application, displayed in the web store. Must be less than 45 characters."
+  },
+  "appShortName": {
+    "message": "HelloFax",
+    "description": "The short title of the application, displayed in the web store. Must be less than 12 characters."
+  },
+  "appDesc": {
+    "message": "HelloFax gjør det enkelt å signere dokumenter og sende fakser online. Du vil aldri trenge å skrive ut, signere og skanne dokumenter igjen!",
+    "description": "The description of the application, displayed in the web store. Must be less than 132 characters."
+  }
+}

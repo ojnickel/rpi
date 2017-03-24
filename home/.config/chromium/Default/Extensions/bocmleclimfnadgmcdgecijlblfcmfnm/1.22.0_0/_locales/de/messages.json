@@ -1,0 +1,14 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store. Must be less than 132 characters.",
+      "message": "Mit HelloFax signieren Sie kinderleicht Dokumente und versenden Faxe. Sie müssen Dokumente nie wieder ausdrucken, signieren und einscannen!"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store. Must be less than 45 characters.",
+      "message": "HelloFax: 5 kostenlose Fax-Seiten"
+   },
+   "appShortName": {
+      "description": "The short title of the application, displayed in the web store. Must be less than 12 characters.",
+      "message": "HelloFax"
+   }
+}

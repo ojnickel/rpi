@@ -1,0 +1,17 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.showslow.com/my.php?utm_source=chromeapp&utm_medium=chromeapp&utm_campaign=ShowSlow%2BChrome%2BWeb%2BApp"
+      },
+      "urls": [ "http://www.showslow.com/" ]
+   },
+   "description": "Show Slow is an open source tool that helps monitor various website performance metrics over time.",
+   "icons": {
+      "128": "web-app-icon-128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDztDtU4Z6o7HPRh3BWpB+cpINmWGeZHP1HF2tO7EiOIclLVut1KoqSlnXeweoE6aa357nEAKR72YZupfctyZIHi/EKcs847pk71jPIK+gCvK9P4kpaJ1C1CJ9wDI64gAipl55fdR20XsmZaAV69cZ0xp/7/3TLLoeROnAEtwk85QIDAQAB",
+   "name": "ShowSlow",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "2"
+}

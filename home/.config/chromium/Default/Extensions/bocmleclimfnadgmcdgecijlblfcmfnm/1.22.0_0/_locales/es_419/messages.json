@@ -1,0 +1,14 @@
+{
+   "appDesc": {
+      "description": "The description of the application, displayed in the web store. Must be less than 132 characters.",
+      "message": "HelloFax hace más fácil firmar y enviar faxes en línea. ¡Nunca más tendrá que volver a imprimir, firmar y escanear documentos!"
+   },
+   "appName": {
+      "description": "The title of the application, displayed in the web store. Must be less than 45 characters.",
+      "message": "HelloFax: 5 páginas de fax gratis"
+   },
+   "appShortName": {
+      "description": "The short title of the application, displayed in the web store. Must be less than 12 characters.",
+      "message": "HelloFax"
+   }
+}

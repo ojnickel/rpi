@@ -1,0 +1,19 @@
+# 
+# /etc/fstab: static file system information
+#
+# <file system>	<dir>	<type>	<options>	<dump>	<pass>
+/dev/mmcblk0p1  /boot   vfat    defaults        0       0
+
+# /dev/sda1
+#/dev/sda1           	/srv/nfs/videos         	ext4      	rw,relatime,data=ordered	/mnt/usb/videos		ext4	defaults	0  0	0   2
+#/dev/sda2           	/srv/nfd/downloads         	ext4      	rw,relatime,data=ordered	0   2
+#/dev/sda1           	/mnt/usb/videos         	ext4      	rw,relatime,data=ordered	0   2
+#/dev/sda2           	/mnt/usb/downloads         	ext4      	rw,relatime,data=ordered	0   2
+
+
+
+UUID=4ff934b4-2f63-47c6-8376-36d698cfd6ed	/mnt/usb/videos		ext4	defaults	0 0
+UUID=4997cbc7-e351-4957-9fb8-d52b8252b223    /mnt/usb/downloads        	ext4    defaults	0   0
+/mnt/usb/videos		/srv/nfs/videos			none   		bind   				0   0
+/mnt/usb/downloads	/srv/nfs/downloads			none   		bind   				0   0
+

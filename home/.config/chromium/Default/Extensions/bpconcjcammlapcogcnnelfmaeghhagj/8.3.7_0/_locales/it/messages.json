@@ -1,0 +1,436 @@
+{
+   "appDesc": {
+      "description": "The description of the extension",
+      "message": "Acquisisci pagine Internet, parte di esse o intere finestre del browser, modifica immagini e salva le immagini su cartelle locali o Google Drive."
+   },
+   "appName": {
+      "description": "The title of the extension",
+      "message": "Nimbus Screenshot"
+   },
+   "captureHelperWindowTitle": {
+      "message": "Seleziona una delle schermate da bloccare!"
+   },
+   "cropBtnCancel": {
+      "message": "Annulla"
+   },
+   "cropBtnCopy": {
+      "message": "Copia negli Appunti"
+   },
+   "cropBtnEdit": {
+      "message": "Modifica"
+   },
+   "cropBtnNimbus": {
+      "message": "Invia a Nimbus"
+   },
+   "cropBtnSave": {
+      "message": "Salva"
+   },
+   "doneTitle": {
+      "message": "Salva schermata acquisita"
+   },
+   "dropImageTitle": {
+      "message": "rilascia immagine qui"
+   },
+   "editBtnBack": {
+      "message": "Indietro"
+   },
+   "editBtnCopy": {
+      "message": "Copia negli Appunti"
+   },
+   "editBtnDone": {
+      "message": "Fatto"
+   },
+   "editBtnDrive": {
+      "message": "Invia a Google"
+   },
+   "editBtnNimbus": {
+      "message": "Salva su Nimbus"
+   },
+   "editBtnPrint": {
+      "message": "Stampa immagine"
+   },
+   "editBtnSave": {
+      "message": "Salva come immagine"
+   },
+   "foldersLabel": {
+      "message": "Potrai salvare la schermata acquisita su:"
+   },
+   "gDriveBtnDone": {
+      "message": "Fatto"
+   },
+   "gDriveLabel": {
+      "message": "Seleziona cartella in cui salvare la schermata acquisita"
+   },
+   "gDriveMainFolder": {
+      "message": "Questa è la Cartella principale"
+   },
+   "gDriveNoItems": {
+      "message": "Nessun elemento"
+   },
+   "gDriveSelectFolder": {
+      "message": "seleziona cartella"
+   },
+   "gDriveTitle": {
+      "message": "Invia a Google Drive"
+   },
+   "limitDescription": {
+      "message": "\u003Cstrong>Passa alla versione Nimbus Pro \u003C/strong>per aumentare il limite di traffico mensile a 1 gigabyte."
+   },
+   "limitGoToPro": {
+      "message": "Passa a Nimbus Pro"
+   },
+   "limitHref": {
+      "message": "Perché Nimbus Pro è migliore?"
+   },
+   "limitNoSpace": {
+      "message": "Spiacenti. Il file non può essere caricato, in quanto \u003Cstrong>stai per raggiungere il limite mensile di traffico di 100 megabyte\u003C/strong>."
+   },
+   "limitOf": {
+      "message": "di"
+   },
+   "limitUsage": {
+      "message": "Utilizzo:"
+   },
+   "moreOptionsTitle": {
+      "message": "Hai bisogno di più opzioni per acquisire schermate? Utilizza"
+   },
+   "newReleaseText": {
+      "message": "\u003Cli>Puoi registrare video dallo schermo (Screencast);\u003C/li>\u003Cli>Puoi salvare rapidamente frammenti (Acquisisci frammento);\u003C/ li>\u003Cli>Nuovi elementi nell'editor - Linee tratteggiate;\u003C/li>\u003Cli>Puoi spostare oggetti nell'editor utilizzando i tasti freccia su/giù e destra/sinistra\u003C/li>\u003Cli>Puoi rinominare la schermata acquisita durante l'invio a Nimbus Note;\u003C/li>"
+   },
+   "newReleaseTitle": {
+      "message": "Benvenuti alla nuova versione di \u003Cbr>Nimbus Screenshot"
+   },
+   "nimbusBtnComment": {
+      "message": "commenta e carica"
+   },
+   "nimbusBtnLogin": {
+      "message": "Accedi"
+   },
+   "nimbusBtnMyUploads": {
+      "message": "I miei caricamenti"
+   },
+   "nimbusBtnRemind": {
+      "message": "Ricorda"
+   },
+   "nimbusBtnSignup": {
+      "message": "Iscriviti"
+   },
+   "nimbusBtnStart": {
+      "message": "Inizia il caricamento"
+   },
+   "nimbusCommentPlaceholder": {
+      "message": "commenta la schermata acquisita"
+   },
+   "nimbusHeaderLogin": {
+      "message": "Accedi"
+   },
+   "nimbusHeaderRegistration": {
+      "message": "Registrazione"
+   },
+   "nimbusHeaderRemindPass": {
+      "message": "Ricorda password"
+   },
+   "nimbusInfo": {
+      "message": "L'account Nimbus consente di commentare le schermate acquisite e di condividerle con amici e colleghi."
+   },
+   "nimbusLabelComment": {
+      "message": "Commento"
+   },
+   "nimbusLabelEmail": {
+      "message": "E-mail"
+   },
+   "nimbusLabelFolder": {
+      "message": "Cartella"
+   },
+   "nimbusLabelForgotPass": {
+      "message": "Hai dimenticato la password?"
+   },
+   "nimbusLabelLogin": {
+      "message": "Accedi"
+   },
+   "nimbusLabelPassword": {
+      "message": "Password"
+   },
+   "nimbusLabelPrivate": {
+      "message": "privato"
+   },
+   "nimbusLabelRetypePass": {
+      "message": "Ripeti password"
+   },
+   "nimbusLabelScreenshotName": {
+      "message": "Nome della schermata acquisita"
+   },
+   "nimbusLabelUsername": {
+      "message": "Nome utente"
+   },
+   "nimbusSlackTitleLogout": {
+      "message": "Logout Slack"
+   },
+   "nimbusTitle": {
+      "message": "Invia a Nimbus Note"
+   },
+   "nimbusViewUploads": {
+      "message": "Visualizza i miei caricamenti su Nimbus"
+   },
+   "notificationCopy": {
+      "message": "Immagine copiata negli appunti."
+   },
+   "notificationDataIncorrect": {
+      "message": "Dati inseriti errati. Si prega di riprovare."
+   },
+   "notificationEmailFail": {
+      "message": "Indirizzo e-mail già registrato."
+   },
+   "notificationEmailIncorrect": {
+      "message": "Indirizzo e-mail errato. Si prega di riprovare."
+   },
+   "notificationInsertInfo": {
+      "message": "Puoi inserire solo l'immagine."
+   },
+   "notificationKeyIncorrect": {
+      "message": "Chiave immessa errata. Si prega di riprovare."
+   },
+   "notificationLoginFail": {
+      "message": "Accesso non riuscito. Si prega di riprovare."
+   },
+   "notificationPassChanged": {
+      "message": "Password modificata."
+   },
+   "notificationReachedLimit": {
+      "message": "Hai raggiunto il limite di traffico mensile (100 MB). Per continuare, è necessario acquistare Nimbus Pro."
+   },
+   "notificationRegisterFail": {
+      "message": "Registrazione non riuscita. Si prega di riprovare."
+   },
+   "notificationRestoreSent": {
+      "message": "Istruzioni di ripristino inviate all'indirizzo di posta elettronica registrato."
+   },
+   "notificationUploaded": {
+      "message": "Caricamento completato."
+   },
+   "notificationUrlCopied": {
+      "message": "URL copiato negli appunti."
+   },
+   "notificationWrong": {
+      "message": "Si è verificato un errore. Si prega di riprovare."
+   },
+   "notificationWrongEditor": {
+      "message": "Siamo spiacenti, ma è probabile che l'editor non funzioni correttamente con immagini molto grandi."
+   },
+   "notificationWrongInsert": {
+      "message": "Gli Appunti non contengono immagini da inserire."
+   },
+   "optionsCanUse": {
+      "message": "Puoi usare"
+   },
+   "optionsEditor": {
+      "message": "Impostazioni Editor"
+   },
+   "optionsFormat": {
+      "message": "Formato dell'immagine"
+   },
+   "optionsFrom": {
+      "message": "da"
+   },
+   "optionsHideFixedElements": {
+      "message": "Nascondi elementi fissi"
+   },
+   "optionsNameTpl": {
+      "message": "Modello di nome del file:"
+   },
+   "optionsNumbers": {
+      "message": "Visualizza i numeri di oggetti vicini"
+   },
+   "optionsQuality": {
+      "message": "Qualità dell'immagine"
+   },
+   "optionsQuickCaptureEnable": {
+      "message": "Abilita acquisizione rapida (non mostrare finestra popup)"
+   },
+   "optionsQuickCaptureTitle": {
+      "message": "Impostazioni di acquisizione"
+   },
+   "optionsSave": {
+      "message": "Salva impostazioni"
+   },
+   "optionsSaveAs": {
+      "message": "Attiva la finestra di dialogo \"Salva con nome\""
+   },
+   "optionsSaveCropPosition": {
+      "message": "Salva posizione della sezione tagliata"
+   },
+   "optionsShadows": {
+      "message": "Abilita ombreggiatura"
+   },
+   "optionsShortcut": {
+      "message": "Impostazioni di scelta rapida"
+   },
+   "optionsTitle": {
+      "message": "Impostazioni delle schermate acquisite"
+   },
+   "panelActions": {
+      "message": "Azioni"
+   },
+   "panelParameters": {
+      "message": "Parametri"
+   },
+   "panelSize": {
+      "message": "Dimensione"
+   },
+   "panelTools": {
+      "message": "Strumenti di disegno"
+   },
+   "popupBtnAndroid": {
+      "message": "Versione Android"
+   },
+   "popupBtnArea": {
+      "message": "Area selezionata"
+   },
+   "popupBtnBlank": {
+      "message": "Schermo nero"
+   },
+   "popupBtnDesktop": {
+      "message": "Acquisisci dal desktop"
+   },
+   "popupBtnEnableCopy": {
+      "message": "copia negli appunti"
+   },
+   "popupBtnEnableDownload": {
+      "message": "scarica"
+   },
+   "popupBtnEnableEdit": {
+      "message": "consenti modifica"
+   },
+   "popupBtnEnableSave": {
+      "message": "salva con nome"
+   },
+   "popupBtnEntire": {
+      "message": "Pagina intera"
+   },
+   "popupBtnFragment": {
+      "message": "Acquisisci frammento"
+   },
+   "popupBtnOptions": {
+      "message": "Opzioni"
+   },
+   "popupBtnScroll": {
+      "message": "Seleziona e scorri"
+   },
+   "popupBtnVisible": {
+      "message": "Parte visibile della pagina"
+   },
+   "popupBtnWindow": {
+      "message": "Finestra del browser"
+   },
+   "popupFreeAccountGo": {
+      "message": "Upgrade to Nimbus Pro"
+   },
+   "popupFreeAccountNo": {
+      "message": "No, thanks"
+   },
+   "popupFreeAccountText": {
+      "message": "If you would like to upload\u003Cbr>\u003Cstrong>video larger than 10 megabytes\u003C/strong>, you have to\u003Cbr>upgrade your subscription to \u003Cstrong>Nimbus Pro\u003C/strong>"
+   },
+   "popupFreeAccountTitle": {
+      "message": "Unfortunately, the video size\u003Cbr>exceeds 10 megabytes"
+   },
+   "popupTitle": {
+      "message": "Opzioni di acquisizione"
+   },
+   "tooltipArrow": {
+      "message": "disegna freccia"
+   },
+   "tooltipBlur": {
+      "message": "sfocatura"
+   },
+   "tooltipColor": {
+      "message": "cambia colore"
+   },
+   "tooltipCopy": {
+      "message": "Copia negli appunti"
+   },
+   "tooltipCrop": {
+      "message": "blocca"
+   },
+   "tooltipEllipse": {
+      "message": "disegna ellisse"
+   },
+   "tooltipFill": {
+      "message": "riempi"
+   },
+   "tooltipLine": {
+      "message": "disegna linea"
+   },
+   "tooltipLineWidth": {
+      "message": "cambia larghezza linea"
+   },
+   "tooltipLogout": {
+      "message": "disconnetti"
+   },
+   "tooltipMakeScreenshot": {
+      "message": "acquisisci schermata"
+   },
+   "tooltipNotAuthorized": {
+      "message": "Non sei autorizzato"
+   },
+   "tooltipNote": {
+      "message": "disegna nota"
+   },
+   "tooltipNumbers": {
+      "message": "mostra numeri"
+   },
+   "tooltipOpenFile": {
+      "message": "apri file"
+   },
+   "tooltipPassInfo": {
+      "message": "La password deve contenere almeno 8 simboli"
+   },
+   "tooltipPassMatch": {
+      "message": "Password non corrispondenti"
+   },
+   "tooltipPen": {
+      "message": "penna"
+   },
+   "tooltipRectangle": {
+      "message": "disegna rettangolo"
+   },
+   "tooltipRedo": {
+      "message": "ripeti"
+   },
+   "tooltipResize": {
+      "message": "ridimensiona"
+   },
+   "tooltipShadow": {
+      "message": "ombreggiatura"
+   },
+   "tooltipShortUrl": {
+      "message": "Rendi URL breve"
+   },
+   "tooltipText": {
+      "message": "disegna testo"
+   },
+   "tooltipUndo": {
+      "message": "annulla"
+   },
+   "tooltipUndoAll": {
+      "message": "annulla tutto"
+   },
+   "tooltipUploadTo": {
+      "message": "Carica su"
+   },
+   "tooltipWrongEmail": {
+      "message": "Indirizzo e-mail errato"
+   },
+   "tooltipZoom": {
+      "message": "cambia zoom"
+   },
+   "tooltipZoomMinus": {
+      "message": "riduci"
+   },
+   "tooltipZoomPlus": {
+      "message": "ingrandisci"
+   },
+   "welcomeUrl": {
+      "message": "http://help.everhelper.me/customer/portal/articles/1909151-nimbus-screenshot-app-for-google-chrome"
+   }
+}

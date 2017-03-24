@@ -1,0 +1,439 @@
+{
+   "appDesc": {
+      "description": "The description of the extension",
+      "message": "Weblapok rögzítése,az egész böngészőablak vagy annak egy része,képernyőkép szerkesztése,majd mentése helyi fájlként vagy a Google Drive-ra."
+   },
+   "appName": {
+      "description": "The title of the extension",
+      "message": "Nimbus Képernyőkép"
+   },
+   "cropBtnCancel": {
+      "message": "Mégsem"
+   },
+   "cropBtnCopy": {
+      "message": "Másolja a vágólapra"
+   },
+   "cropBtnEdit": {
+      "message": "Szerkesztés"
+   },
+   "cropBtnNimbus": {
+      "message": "Küldés Nimbus-ra"
+   },
+   "cropBtnSave": {
+      "message": "Mentés"
+   },
+   "doneTitle": {
+      "message": "Képernyőkép mentése"
+   },
+   "editBtnBack": {
+      "message": "Vissza"
+   },
+   "editBtnCopy": {
+      "message": "Másolja a vágólapra"
+   },
+   "editBtnDone": {
+      "message": "Kész"
+   },
+   "editBtnDrive": {
+      "message": "Küldje el a Google-hoz"
+   },
+   "editBtnNimbus": {
+      "message": "Küldje el a Nimbus-hoz"
+   },
+   "editBtnPrint": {
+      "message": "Kép nyomtatása"
+   },
+   "editBtnSave": {
+      "message": "Kép mentése másként"
+   },
+   "foldersLabel": {
+      "message": "Képernyőkép mentése"
+   },
+   "gDriveBtnDone": {
+      "message": "Kész"
+   },
+   "gDriveLabel": {
+      "message": "Kérjük    },válassza ki a kívánt mappát,ahová menteni szeretné a képernyőképet"
+   },
+   "gDriveMainFolder": {
+      "message": "Alapértelmezett mappa"
+   },
+   "gDriveNoItems": {
+      "message": "Nincsenek elemek"
+   },
+   "gDriveSelectFolder": {
+      "message": "Mappa kiválasztása"
+   },
+   "gDriveTitle": {
+      "message": "Küldés Google Drive-ba"
+   },
+   "limitDescription": {
+      "message": "Lehet váltani Nimbus Pro-ra    },hogy növelje a havi forgalmi keretet 1 gigabájtra."
+   },
+   "limitGoToPro": {
+      "message": "Váltás Nimbus Pro-ra"
+   },
+   "limitHref": {
+      "message": "Miért jobb a Nimbus Pro?"
+   },
+   "limitNoSpace": {
+      "message": "Sajnos    },nem lesz képes feltölteni a fájlt,mivel a havi forgalmi limitet a 100 megabytot meg fogja haladni."
+   },
+   "limitOf": {
+      "message": "ból"
+   },
+   "limitUsage": {
+      "message": "Használat:"
+   },
+   "newReleaseText": {
+      "message": "\u003Cli>Javítva a hiba a Google Plus;\u003C/li>"
+   },
+   "newReleaseTitle": {
+      "message": "Üdvözöljük az új verzió\u003Cbr>Nimbus Képernyőkép"
+   },
+   "nimbusBad": {
+      "message": "Rossz"
+   },
+   "nimbusBeBetter": {
+      "message": "Lehet    },hogy jobb"
+   },
+   "nimbusBtnComment": {
+      "message": "megjegyzés,és feltöltés"
+   },
+   "nimbusBtnLogin": {
+      "message": "Bejelentkezés"
+   },
+   "nimbusBtnMyUploads": {
+      "message": "Saját feltöltések"
+   },
+   "nimbusBtnRemind": {
+      "message": "Emlékezz"
+   },
+   "nimbusBtnSignup": {
+      "message": "Belépés"
+   },
+   "nimbusBtnStart": {
+      "message": "Feltöltés megkezdése"
+   },
+   "nimbusCommentPlaceholder": {
+      "message": "Megjegyzés a képernyőképhez"
+   },
+   "nimbusDid": {
+      "message": "Már volt"
+   },
+   "nimbusGood": {
+      "message": "Jó!"
+   },
+   "nimbusHeaderLogin": {
+      "message": "Bejelentkezés"
+   },
+   "nimbusHeaderRegistration": {
+      "message": "Regisztráció"
+   },
+   "nimbusHeaderRemindPass": {
+      "message": "Jelszó emlékeztetés"
+   },
+   "nimbusInfo": {
+      "message": "Nimbusz fiókkal megjegyzéseket adhat a képernyőképekhez    },és megoszthatja őket barátaival és munkatársaival."
+   },
+   "nimbusLabelComment": {
+      "message": "Megjegyzés"
+   },
+   "nimbusLabelEmail": {
+      "message": "Email"
+   },
+   "nimbusLabelFolder": {
+      "message": "Mappa"
+   },
+   "nimbusLabelForgotPass": {
+      "message": "Elfelejtette jelszavát?"
+   },
+   "nimbusLabelLogin": {
+      "message": "Bejelentkezés"
+   },
+   "nimbusLabelPassword": {
+      "message": "Jelszó"
+   },
+   "nimbusLabelPrivate": {
+      "message": "magán"
+   },
+   "nimbusLabelRetypePass": {
+      "message": "Gépelje be újra a jelszót"
+   },
+   "nimbusLabelScreenshotName": {
+      "message": "Képernyőkép neve"
+   },
+   "nimbusLabelUsername": {
+      "message": "Felhasználói név"
+   },
+   "nimbusRate": {
+      "message": "Szereti a Nimbus Képernyőképet? Kérjük    },értékelje!"
+   },
+   "nimbusSlackTitleLogout": {
+      "message": "Logout Slack"
+   },
+   "nimbusTitle": {
+      "message": "Nimbusz megjegyzés küldése"
+   },
+   "nimbusViewUploads": {
+      "message": "Az én feltöltéseim megnézése"
+   },
+   "notificationCopy": {
+      "message": "Kép másolása a vágólapra."
+   },
+   "notificationDataIncorrect": {
+      "message": "A bevitt adatok helytelenek. Kérjük    },próbálja újra."
+   },
+   "notificationEmailFail": {
+      "message": "Ez az e-mail cím már regisztrálva van."
+   },
+   "notificationEmailIncorrect": {
+      "message": "Hibás e-mail. Kérlek próbáld újra."
+   },
+   "notificationInsertInfo": {
+      "message": "Csak képet lehet beszúrni."
+   },
+   "notificationKeyIncorrect": {
+      "message": "Key entered incorrect. Please try again."
+   },
+   "notificationLoginFail": {
+      "message": "Bejelentkezés sikertelen. Kérlek próbáld újra."
+   },
+   "notificationPassChanged": {
+      "message": "A jelszó megváltozott."
+   },
+   "notificationReachedLimit": {
+      "message": "Elérte a havi forgalmi keretet a (100 MB-ot). A folytatáshoz meg kell vásárolni a Nimbus Pro-t."
+   },
+   "notificationRegisterFail": {
+      "message": "Regisztráció sikertelen. Kérlek próbáld újra."
+   },
+   "notificationRestoreSent": {
+      "message": "Visszaállítási utasítások a küldött e-mailben."
+   },
+   "notificationUploaded": {
+      "message": "A feltöltés befejeződött."
+   },
+   "notificationUrlCopied": {
+      "message": "URL másolása a vágólapra."
+   },
+   "notificationWrong": {
+      "message": "Valami baj van. Kérlek próbáld újra."
+   },
+   "notificationWrongEditor": {
+      "message": "Sajnos lehet,hogy a probléma az,hogy túl nagyok a képek."
+   },
+   "notificationWrongInsert": {
+      "message": "Vágólap nem tartalmaz beillesztendő képeket."
+   },
+   "optionsCanUse": {
+      "message": "Használhatja a"
+   },
+   "optionsEditor": {
+      "message": "Szerkesztési beállítások"
+   },
+   "optionsEnableKey": {
+      "message": "Billentyűparancsok engedélyezése"
+   },
+   "optionsFormat": {
+      "message": "Képformátum"
+   },
+   "optionsFrom": {
+      "message": "tól-től"
+   },
+   "optionsIcon": {
+      "message": "Beállítások gomb"
+   },
+   "optionsIconAddonBar": {
+      "message": "Ikon megjelenítése a kiegészítő sávon"
+   },
+   "optionsIconMainBar": {
+      "message": "Ikon megjelenítése a navigációs sávon"
+   },
+   "optionsNameTpl": {
+      "message": "Fájlnév sablon:"
+   },
+   "optionsNumbers": {
+      "message": "Számok megjelenítése az objektumok közelében"
+   },
+   "optionsQuality": {
+      "message": "Képminőség"
+   },
+   "optionsQuickCaptureEnable": {
+      "message": "Gyors rögzítés engedélyezése (felugró ablak nem jelenik meg)"
+   },
+   "optionsQuickCaptureTitle": {
+      "message": "Gyors rögzítés"
+   },
+   "optionsSave": {
+      "message": "Beállítások mentése"
+   },
+   "optionsSaveAs": {
+      "message": "Engedélyezés \\Mentés másként\\  párbeszéd"
+   },
+   "optionsSaveCropPosition": {
+      "message": "Kiválasztott terület poziciójának mentése"
+   },
+   "optionsShadows": {
+      "message": "Háttér engedélyezése"
+   },
+   "optionsShortcut": {
+      "message": "Gyorsgomb beállítások"
+   },
+   "optionsTitle": {
+      "message": "Képernyőkép beállítások"
+   },
+   "panelActions": {
+      "message": "Művelet"
+   },
+   "panelParameters": {
+      "message": "Paraméterek"
+   },
+   "panelSize": {
+      "message": "Méret"
+   },
+   "panelTools": {
+      "message": "Rajzeszközök"
+   },
+   "popupBtnAndroid": {
+      "message": "Android Verzió"
+   },
+   "popupBtnArea": {
+      "message": "Kiválasztott terület"
+   },
+   "popupBtnBlank": {
+      "message": "Üres képernyő"
+   },
+   "popupBtnEnableCopy": {
+      "message": "Másolás a vágólapra"
+   },
+   "popupBtnEnableDownload": {
+      "message": "Letöltés"
+   },
+   "popupBtnEnableEdit": {
+      "message": "Szerkesztés engedélyezése"
+   },
+   "popupBtnEnableSave": {
+      "message": "Mentés másként"
+   },
+   "popupBtnEntire": {
+      "message": "Teljes oldal"
+   },
+   "popupBtnFragment": {
+      "message": "Töredék az oldalból"
+   },
+   "popupBtnOptions": {
+      "message": "Beállítások"
+   },
+   "popupBtnScroll": {
+      "message": "A kiválasztott+görgetés"
+   },
+   "popupBtnVisible": {
+      "message": "Az oldal látható része"
+   },
+   "popupBtnWindow": {
+      "message": "Böngésző ablak"
+   },
+   "popupFreeAccountGo": {
+      "message": "Upgrade to Nimbus Pro"
+   },
+   "popupFreeAccountNo": {
+      "message": "No, thanks"
+   },
+   "popupFreeAccountText": {
+      "message": "If you would like to upload\u003Cbr>\u003Cstrong>video larger than 10 megabytes\u003C/strong>, you have to\u003Cbr>upgrade your subscription to \u003Cstrong>Nimbus Pro\u003C/strong>"
+   },
+   "popupFreeAccountTitle": {
+      "message": "Unfortunately, the video size\u003Cbr>exceeds 10 megabytes"
+   },
+   "popupTitle": {
+      "message": "Rögzítési beállítások"
+   },
+   "tooltipArrow": {
+      "message": "Nyíl rajzolása"
+   },
+   "tooltipBlur": {
+      "message": "Elmosódottság"
+   },
+   "tooltipColor": {
+      "message": "Szín módosítása"
+   },
+   "tooltipCopy": {
+      "message": "Másolás a vágólapra"
+   },
+   "tooltipCrop": {
+      "message": "Kivágás"
+   },
+   "tooltipEllipse": {
+      "message": "Ellipszis rajzolása"
+   },
+   "tooltipFill": {
+      "message": "Rajzolás"
+   },
+   "tooltipLine": {
+      "message": "Vonal rajzolása"
+   },
+   "tooltipLineWidth": {
+      "message": "vonalvastagság módosítása"
+   },
+   "tooltipLogout": {
+      "message": "Kijelentkezés"
+   },
+   "tooltipNotAuthorized": {
+      "message": "Ön nem jogosult"
+   },
+   "tooltipNote": {
+      "message": "megjegyzés készítése"
+   },
+   "tooltipNumbers": {
+      "message": "számok megjelenítése"
+   },
+   "tooltipPassInfo": {
+      "message": "Jelszó legyen legalább 8 szimbólumú"
+   },
+   "tooltipPassMatch": {
+      "message": "A jelszavak nem egyeznek"
+   },
+   "tooltipPen": {
+      "message": "Ceruza"
+   },
+   "tooltipRectangle": {
+      "message": "Téglalap rajzolása"
+   },
+   "tooltipRedo": {
+      "message": "Ismét:"
+   },
+   "tooltipResize": {
+      "message": "Átméretezés"
+   },
+   "tooltipShadow": {
+      "message": "Háttér"
+   },
+   "tooltipShortUrl": {
+      "message": "rövid URL"
+   },
+   "tooltipText": {
+      "message": "Szöveg írása"
+   },
+   "tooltipUndo": {
+      "message": "Visszavonás"
+   },
+   "tooltipUndoAll": {
+      "message": "Összes visszavonása"
+   },
+   "tooltipUploadTo": {
+      "message": "Feltöltés"
+   },
+   "tooltipWrongEmail": {
+      "message": "Rossz e-mail"
+   },
+   "tooltipZoom": {
+      "message": "Nagyítás mértékének módosítása"
+   },
+   "tooltipZoomMinus": {
+      "message": "Nagyítás -"
+   },
+   "tooltipZoomPlus": {
+      "message": "Nagyítás +"
+   }
+}

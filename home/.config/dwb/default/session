@@ -1,0 +1,27 @@
+g:*default
+-21 dwb:bookmarks dwb - Bookmarks
+-20 dwb:plugins dwb - Plugins
+-19 dwb:settings dwb - Settings
+-18 dwb:plugins dwb - Plugins
+-17 dwb:keys dwb - Keys
+-16 dwb:searchengines dwb - Searchengines
+-15 dwb:downloads dwb - Downloads
+-14 dwb:history dwb - History
+-13 dwb:searchengines dwb - Searchengines
+-12 dwb:keys dwb - Keys
+-11 https://www.google.de/?gws_rd=ssl#cns=0&gws_rd=ssl 
+-10 https://www.google.de/?gws_rd=ssl#cns=0&gws_rd=ssl 
+-9 https://www.google.de/?gws_rd=ssl#cns=0&gws_rd=ssl dwb arch - Google-Suche
+-8 https://www.google.de/?gws_rd=ssl#q=dwb%20arch 
+-7 https://wiki.archlinux.org/index.php/Dwb dwb - ArchWiki
+-6 https://wiki.archlinux.org/index.php/List_of_applications/Internet#Web_browsers List of applications/Internet - ArchWiki
+-5 https://wiki.archlinux.org/index.php/Dwb dwb - ArchWiki
+-4 https://wiki.archlinux.org/index.php/Dwb#Search_engines dwb - ArchWiki
+-3 https://wiki.archlinux.org/index.php/Dwb#youtube-player dwb - ArchWiki
+-2 https://wiki.archlinux.org/index.php/Dwb#dwb-specific dwb - ArchWiki
+-1 https://www.google.de/search?sclient=psy-ab&site=&source=hp&q=%3Challo&oq=&gs_l=&pbx=1 <hallo - Google-Suche
+0|0 https://www.google.de/search?sclient=psy-ab&site=&source=hp&q=seciao&oq=&gs_l=&pbx=1 seciao - Google-Suche
+-3 https://www.google.de/search?sclient=psy-ab&site=&source=hp&q=%3CDWB%20PLACES.SQLITE&oq=&gs_l=&pbx=1 <DWB PLACES.SQLITE - Google-Suche
+-2 https://de.manjaro.org/index.php?topic=494.15 Welchen Browser nehmt Ihr?
+-1 https://www.google.de/search?sclient=psy-ab&site=&source=hp&q=luakit%20youtube&oq=&gs_l=&pbx=1 luakit youtube - Google-Suche
+0|0 https://github.com/luakit/luakit/wiki/Play-embedded-video-in-external-player Play embedded video in external player · luakit/luakit Wiki · GitHub

@@ -1,0 +1,694 @@
+{
+   "aboutBackupButton": {
+      "description": "",
+      "message": "Zálohovat do souboru…"
+   },
+   "aboutBackupFilename": {
+      "description": "default filename to use",
+      "message": "moje-zaloha-umatrix.txt"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/uMatrix/releases'>Change log\u003C/a>"
+   },
+   "aboutCode": {
+      "description": "",
+      "message": "Zdrojový kód (GPLv3)"
+   },
+   "aboutCodeContributors": {
+      "description": "",
+      "message": "Zdrojový kód:"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Přispěvatelé"
+   },
+   "aboutDoc": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/uMatrix/wiki'>Documentation\u003C/a>"
+   },
+   "aboutIssueContributors": {
+      "description": "",
+      "message": "Problémy:"
+   },
+   "aboutIssues": {
+      "description": "",
+      "message": "Chyby a problémy"
+   },
+   "aboutOr": {
+      "description": "English: ... or ...",
+      "message": "nebo"
+   },
+   "aboutPageName": {
+      "description": "a tab in dashboard",
+      "message": "O rozšíření"
+   },
+   "aboutPermissions": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/httpswitchboard/wiki/Permissions'>Permissions\u003C/a>"
+   },
+   "aboutResetButton": {
+      "description": "English: Reset to default settings",
+      "message": "Vrátit do původního stavu"
+   },
+   "aboutResetConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Varování: Tento příkaz odstraní všechna vaše nastavení. Jste si jisti, že chcete pokračovat?"
+   },
+   "aboutRestoreButton": {
+      "description": "",
+      "message": "Obnovit ze zálohy…"
+   },
+   "aboutRestoreConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "All your settings will be overwritten using data backed up on {{time}}, and uMatrix will restart.\n\nOverwrite all existing settings using backed up data?"
+   },
+   "aboutRestoreError": {
+      "description": "",
+      "message": "Data nemohla být načtena nebo jsou neplatná"
+   },
+   "aboutStorageUsed": {
+      "description": "",
+      "message": "Použité místo: {{storageUsed}} bajtů"
+   },
+   "aboutTranslationContributors": {
+      "description": "",
+      "message": "Překlady:"
+   },
+   "aboutUserDataHeader": {
+      "description": "",
+      "message": "Vaše data"
+   },
+   "allPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "vše"
+   },
+   "cloudDeviceNamePrompt": {
+      "description": "used as a prompt for the user to provide a custom device name",
+      "message": "This device name:"
+   },
+   "cloudNoData": {
+      "description": "",
+      "message": "...\n..."
+   },
+   "cloudPull": {
+      "description": "tooltip",
+      "message": "Import from cloud storage"
+   },
+   "cloudPush": {
+      "description": "tooltip",
+      "message": "Export to cloud storage"
+   },
+   "commandOpenDashboard": {
+      "description": "",
+      "message": "Otevřít panel"
+   },
+   "commandRevertAll": {
+      "description": "",
+      "message": "Zrušit všechny dočasné změny"
+   },
+   "commandWhitelistAll": {
+      "description": "",
+      "message": "Dočasně povolit všechny"
+   },
+   "commandWhitelistPageDomain": {
+      "description": "",
+      "message": "Dočasně povolit doménu stránky"
+   },
+   "cookiePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "cookie"
+   },
+   "cssPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "styly"
+   },
+   "dashboardPageName": {
+      "description": "",
+      "message": "µMatrix – Ovládací panel"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "před {{value}} dny"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "před {{value}} hodinami"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "před {{value}} minutami"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "včera"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "před hodinou"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "před minutou"
+   },
+   "errorCantConnectTo": {
+      "description": "",
+      "message": "Chyba sítě: Nelze se připojit k {{url}}"
+   },
+   "extName": {
+      "description": "",
+      "message": "µMatrix"
+   },
+   "extShortDesc": {
+      "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS",
+      "message": "Umožňuje cíleně povolovat/blokovat spojení z vašeho prohlížeče pouhým kliknutím. Můžete jím blokovat skripty, reklamy, Facebook, …"
+   },
+   "framePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "rámce"
+   },
+   "genericRevert": {
+      "description": "for generic 'revert' buttons",
+      "message": "Revert"
+   },
+   "genericSubmit": {
+      "description": "for generic 'submit' buttons",
+      "message": "Submit"
+   },
+   "hostsFilesApplyChanges": {
+      "description": "",
+      "message": "Uložit změny"
+   },
+   "hostsFilesAutoUpdatePrompt": {
+      "description": "",
+      "message": "Auto-update hosts files."
+   },
+   "hostsFilesExternalListNew": {
+      "description": "",
+      "message": "nová verze k dispozici"
+   },
+   "hostsFilesExternalListObsolete": {
+      "description": "",
+      "message": "zastaralé"
+   },
+   "hostsFilesExternalListPurge": {
+      "description": "",
+      "message": "vyčistit cache"
+   },
+   "hostsFilesExternalListsHint": {
+      "description": "",
+      "message": "One URL per line. Lines prefixed with &lsquo;#&rsquo; will be ignored. Invalid URLs will be silently ignored."
+   },
+   "hostsFilesExternalListsParse": {
+      "description": "",
+      "message": "Načíst"
+   },
+   "hostsFilesLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "Poslední aktualizace: {{ago}}"
+   },
+   "hostsFilesPerFileStats": {
+      "description": "",
+      "message": "Použito {{used}} z {{total}}"
+   },
+   "hostsFilesPrompt": {
+      "description": "",
+      "message": "All hostnames in a hosts file are loaded as blacklisted hostnames in the global scope."
+   },
+   "hostsFilesPurgeAll": {
+      "description": "",
+      "message": "Vyčistit všechny cache"
+   },
+   "hostsFilesStats": {
+      "description": "",
+      "message": "{{blockedHostnameCount}} distinct blocked hostnames from:"
+   },
+   "hostsFilesUpdateNow": {
+      "description": "",
+      "message": "Aktualizovat nyní"
+   },
+   "imagePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "obr."
+   },
+   "loggerEntryAssetUpdated": {
+      "description": "An entry for when an asset was updated",
+      "message": "asset updated: {{value}}"
+   },
+   "loggerEntryBrowserCacheCleared": {
+      "description": "An entry for when a cookie can't be deleted",
+      "message": "browser cache cleared"
+   },
+   "loggerEntryCookieDeleted": {
+      "description": "An entry for when a cookie is deleted",
+      "message": "cookie deleted: {{value}}"
+   },
+   "loggerEntryDeleteCookieError": {
+      "description": "An entry for when the browser cache is cleared",
+      "message": "failed to delete cookie: {{value}}"
+   },
+   "loggerEntryUserAgentSpoofing": {
+      "description": "An entry for when a new user agent string is selected",
+      "message": "spoofing user agent with: {{value}}"
+   },
+   "loggerFilterInputPlaceholder": {
+      "description": "Appears in the input filed where filter expressions are entered",
+      "message": "filter expression(s)"
+   },
+   "loggerMaxEntriesTip": {
+      "description": "Appears as a tooltip when hovering the input field",
+      "message": "Maximum number of entries"
+   },
+   "mainBlockedBack": {
+      "description": "English: Go back",
+      "message": "Zpět"
+   },
+   "mainBlockedClose": {
+      "description": "English: Close",
+      "message": "Zavřít"
+   },
+   "mainBlockedPrompt1": {
+      "description": "English: uMatrix has prevented the following page from loading:",
+      "message": "uMatrix has prevented the following page from loading:"
+   },
+   "mainBlockedPrompt2": {
+      "description": "English: Because of the following rule",
+      "message": "Because of the following rule"
+   },
+   "matrix1stPartyLabel": {
+      "description": "1st-party",
+      "message": "vlastní doména"
+   },
+   "matrixBlacklistedHostnames": {
+      "description": "Appears in the metadata row of bottom-most group: **mind the limited width**",
+      "message": "{{count}} blokovaných domén"
+   },
+   "matrixDashboardMenuEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Go to dashboard"
+   },
+   "matrixLoggerMenuEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Go to logger"
+   },
+   "matrixMtxButtonTip": {
+      "description": "Tool tip for matrix button",
+      "message": "Disable/enable matrix filtering for this scope."
+   },
+   "matrixNoNetTrafficPrompt": {
+      "description": "",
+      "message": "Na této záložce zatím nedošlo k žádné síťové komunikaci."
+   },
+   "matrixPersistButtonTip": {
+      "description": "Tool tip for the persist button",
+      "message": "Uložit dočasné změny v tomto kontextu."
+   },
+   "matrixReloadButton": {
+      "description": "Tool tip for the reload button",
+      "message": "Obnovit stránku."
+   },
+   "matrixRevertAllEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Revert all temporary changes"
+   },
+   "matrixRevertButtonTip": {
+      "description": "Tool tip for the revert local permission button",
+      "message": "Zrušit dočasné změny v tomto kontextu."
+   },
+   "matrixSwitchNoMixedContent": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Striktní HTTPS"
+   },
+   "matrixSwitchReferrerSpoof": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Podvrhovat adresy odkazujících stránek"
+   },
+   "matrixSwitchUASpoof": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Podvrhovat identifikaci prohlížeče"
+   },
+   "otherPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "jiné"
+   },
+   "pluginPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "plugin"
+   },
+   "privacyBehindTheSceneHeader": {
+      "description": "",
+      "message": "Behind-the-scene requests"
+   },
+   "privacyClearCacheHelp": {
+      "description": "",
+      "message": "\u003Cp>Some web sites are really bent on tracking you, so much that they will use not-so-nice tricks to work around whatever measures you take in order to not be tracked.\u003C/p>\u003Cp>A few of these tricks rely\u003Csup style='font-size:smaller'>[1, 2]\u003C/sup> on the \u003Ca href='https://en.wikipedia.org/wiki/Web_cache'>browser cache\u003C/a>, which content is often long lasting since rarely will users take the time to regularly clear their browser cache.\u003C/p>\u003Cp>There is little inconvenience to clear the browser cache regularly (likelihood is that you won't notice when it happens), and the benefit is to prevent these obnoxious trackers from invading your privacy.\u003C/p>\u003Cp>Check this option to have \u003Ci>uMatrix\u003C/i> do it for you, at the interval you wish.\u003C/p>\u003Cp style='font-size:smaller'>[1] \u003Ca href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;\u003C/a>\u003Cbr>[2] \u003Ca href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;\u003C/a>\u003C/p>"
+   },
+   "privacyClearCachePrompt1": {
+      "description": "First part of 'Clear browser cache every [n] minutes'",
+      "message": "Mazat vyrovnávací paměť prohlížeče každých"
+   },
+   "privacyClearCachePrompt2": {
+      "description": "Second part of 'Clear browser cache every [n] minutes'",
+      "message": "minut."
+   },
+   "privacyDeleteBlockedCookiesHelp": {
+      "description": "",
+      "message": "\u003Cp>Blacklisted cookies are not prevented by \u003Ci>uMatrix\u003C/i> from entering your browser. However they are prevented from leaving your browser, which is what really matters. Not blocking cookies before they enter your browser gives you the opportunity to be informed that a site tried to use cookies, and furthermore to inspect their contents if you wish.\u003C/p>\u003Cp>Once these blacklisted cookies have been accounted for by \u003Ci>uMatrix\u003C/i>, they can be removed from your browser if you wish so.\u003C/p>\u003Cp>\u003Cb>Important note:\u003C/b> Extensions can make web requests during the course of their normal operation. These requests can result in cookies being created in the browser. If the hostname from where a cookie originate is not whitelisted, the cookie will be removed from the browser by \u003Ci>uMatrix\u003C/i> if this option is checked. So be sure that the hostname(s) with which an extension communicate is whitelisted.\u003C/p>"
+   },
+   "privacyDeleteBlockedCookiesPrompt": {
+      "description": "",
+      "message": "Mazat zablokované cookies."
+   },
+   "privacyDeleteBlockedLocalStorageHelp": {
+      "description": "",
+      "message": "TODO"
+   },
+   "privacyDeleteBlockedLocalStoragePrompt": {
+      "description": "",
+      "message": "Delete \u003Ca href='https://en.wikipedia.org/wiki/Web_storage'>local storage\u003C/a> content set by blocked hostnames"
+   },
+   "privacyDeleteNonBlockedSessionCookiesHelp": {
+      "description": "",
+      "message": "\u003Cp>\u003Ca href='http://www.w3.org/2001/tag/2010/09/ClientSideStorage.html'>W3C\u003C/a>: &ldquo;A session cookie ... is erased when you end the browser session. The session cookie is stored in temporary memory and is not retained after the browser is closed.&rdquo;\u003C/p>\u003Cp>Except that this \u003Ca href='https://code.google.com/p/chromium/issues/detail?id=128513'>might not be happening\u003C/a> in some browsers. Also, to some, having to close the browser in order for the session cookies to clear might not be early enough.\u003C/p>"
+   },
+   "privacyDeleteNonBlockedSessionCookiesPrompt1": {
+      "description": "First part of 'Delete non-blocked session cookies [n] minutes after the last time they have been used'",
+      "message": "Mazat neblokované cookies "
+   },
+   "privacyDeleteNonBlockedSessionCookiesPrompt2": {
+      "description": "Second part of 'Delete non-blocked session cookies [n] minutes after the last time they have been used'",
+      "message": " minut po posledním použití."
+   },
+   "privacyNoMixedContentHelp": {
+      "description": "",
+      "message": "\u003Cp>From \u003Ca href='https://developer.mozilla.org/en-US/docs/Security/MixedContent'>Mozilla Developer Network\u003C/a>:\u003C/p>\u003Cblockquote>If [a] HTTPS page includes content retrieved through regular, cleartext HTTP, then the connection is only partially encrypted: the unencrypted content is accessible to sniffers and can be modified by man-in-the-middle attackers, and therefore the connection is not safeguarded anymore. When a webpage exhibits this behavior, it is called a mixed content page.\u003C/blockquote>"
+   },
+   "privacyNoMixedContentPrompt": {
+      "description": "",
+      "message": "Striktní HTTPS: zakázat smíšený obsah."
+   },
+   "privacyPageName": {
+      "description": "a tab in dashboard",
+      "message": "Soukromí"
+   },
+   "privacyPageTitle": {
+      "description": "",
+      "message": "µMatrix – Soukromí"
+   },
+   "privacyProcessBehindTheSceneHelp": {
+      "description": "",
+      "message": ""
+   },
+   "privacyProcessHyperlinkAuditingHelp": {
+      "description": "",
+      "message": "\u003Cp>Hyperlink auditing is a mechanism which allow a party, \u003Cb>any party\u003C/b>, to be informed about which link a user clicked on a particular web page. It is essentially a tracking feature: it allows a web site, or any third-party to that web site, to be informed about which link you clicked on which one of its web pages. The sole purpose is to track your browsing activity.\u003C/p>"
+   },
+   "privacyProcessHyperlinkAuditingPrompt": {
+      "description": "",
+      "message": "Block all \u003Ca href='http://www.whatwg.org/specs/web-apps/current-work/multipage/links.html#hyperlink-auditing'>hyperlink auditing\u003C/a> attempts."
+   },
+   "privacyProcessRefererHelp": {
+      "description": "",
+      "message": "\u003Cp>From Wikipedia:\u003C/p>\u003Cblockquote>HTTP referer is an HTTP header field that identifies the address of the webpage that linked to the resource being requested. ... \u003Cb>Because referer information can violate privacy, some web browsers allow the user to disable the sending of referer information.\u003C/b>\u003C/blockquote>\u003Cp>If this setting is checked, \u003Ci>uMatrix\u003C/i> will spoof the HTTP referrer information if the domain name of the HTTP referrer is third-party to the domain name of net request."
+   },
+   "privacyProcessRefererPrompt": {
+      "description": "",
+      "message": "Spoof \u003Ca href='https://en.wikipedia.org/wiki/HTTP_referer'>HTTP referrer\u003C/a> string of third-party requests."
+   },
+   "privacySpoofUserAgentHelp": {
+      "description": "",
+      "message": "\u003Ca href='https://www.eff.org/deeplinks/2010/01/tracking-by-user-agent'>According to the \u003Ci>Electronic Frontier Foundation\u003C/i>\u003C/a>: &ldquo;[...] your browser sends a &lsquo;User Agent&rsquo; header to the website saying precisely which operating system and web browser you are using. This information could help distinguish Internet users from one another because these versions differ, often considerably, from person to person. [...] \u003Cb>the User Agent string becomes a real privacy problem\u003C/b>.&rdquo;\u003Cp>This option allows you to address the privacy issue raised by the EFF. Please note that \u003Ca href='https://code.google.com/p/chromium/issues/detail?id=129353'>your actual User Agent string can be leaked\u003C/a> through WebSockets.\u003C/p>\u003Cp>You can supply your own list of user agent strings. One string per line. Blank lines and lines prefixed with &lsquo;#&rsquo; will be ignored.\u003C/p>"
+   },
+   "privacySpoofUserAgentPrompt1": {
+      "description": "First part of UA-spoofing prompt",
+      "message": "Spoof \u003Ca href='https://en.wikipedia.org/wiki/User_agent'>User-Agent\u003C/a> string by randomly picking a new one below every"
+   },
+   "privacySpoofUserAgentPrompt2": {
+      "description": "Second part",
+      "message": "minutes."
+   },
+   "scriptPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "skript"
+   },
+   "settingsCloudStorageEnabled": {
+      "description": "",
+      "message": "Enable cloud storage support"
+   },
+   "settingsCollapseBlocked": {
+      "description": "English: Collapse placeholder of blocked elements",
+      "message": "Collapse placeholder of blocked elements"
+   },
+   "settingsIconBadgeEnabled": {
+      "description": "English: Show the number of distinct requests on the icon",
+      "message": "Show the number of distinct requests on the icon"
+   },
+   "settingsMatrixAutoReloadAll": {
+      "description": "",
+      "message": "Všechny"
+   },
+   "settingsMatrixAutoReloadCurrent": {
+      "description": "",
+      "message": "Aktuální"
+   },
+   "settingsMatrixAutoReloadInfo": {
+      "description": "",
+      "message": "Whenever you make changes in the matrix which can affect the display and/or behavior of one or more pages, \u003Ci>uMatrix\u003C/i> will reload affected pages automatically when you close the matrix."
+   },
+   "settingsMatrixAutoReloadNone": {
+      "description": "",
+      "message": "Žádné"
+   },
+   "settingsMatrixAutoReloadPrompt": {
+      "description": "",
+      "message": "Obnovit tyto stránky, jakmile je zavřena matice:"
+   },
+   "settingsMatrixConvenienceHeader": {
+      "description": "English: Convenience",
+      "message": "Convenience"
+   },
+   "settingsMatrixDisplayColorBlind": {
+      "description": "",
+      "message": "Styl pro barvoslepé"
+   },
+   "settingsMatrixDisplayHeader": {
+      "description": "",
+      "message": "Vzhled"
+   },
+   "settingsMatrixDisplayTextSizeLarge": {
+      "description": "",
+      "message": "Velká"
+   },
+   "settingsMatrixDisplayTextSizeNormal": {
+      "description": "",
+      "message": "Normální"
+   },
+   "settingsMatrixDisplayTextSizePrompt": {
+      "description": "",
+      "message": "Velikost písma:"
+   },
+   "settingsPageName": {
+      "description": "a tab in dashboard",
+      "message": "Nastavení"
+   },
+   "settingsPageTitle": {
+      "description": "",
+      "message": "µMatrix – Nastavení"
+   },
+   "settingsSubframeColor": {
+      "description": "English: Blocked frames:&ensp;Color",
+      "message": "Blokované rámce:&ensp;Barva"
+   },
+   "settingsSubframeOpacity": {
+      "description": "English: Opacity",
+      "message": "Neprůhlednost"
+   },
+   "showDashboardButton": {
+      "description": "Appears in Firefox's add-on preferences",
+      "message": "Dashboard"
+   },
+   "showLoggerButton": {
+      "description": "Appears in Firefox's add-on preferences",
+      "message": "Logger"
+   },
+   "statsPageAll": {
+      "description": "",
+      "message": "Všechna"
+   },
+   "statsPageAllowed": {
+      "description": "header for the allowed requests column",
+      "message": "Povoleno"
+   },
+   "statsPageBlocked": {
+      "description": "header for the blocked requests column",
+      "message": "Blokováno"
+   },
+   "statsPageBrowserCacheCleared": {
+      "description": "",
+      "message": "Browser caches cleared: {{count}}"
+   },
+   "statsPageCSS": {
+      "description": "",
+      "message": "Styly"
+   },
+   "statsPageCookieHeadersFoiled": {
+      "description": "",
+      "message": "\u003Ca href='https://en.wikipedia.org/wiki/HTTP_cookie'>HTTP cookie\u003C/a> headers foiled: {{count}}"
+   },
+   "statsPageCookies": {
+      "description": "",
+      "message": "Cookies"
+   },
+   "statsPageCookiesRemoved": {
+      "description": "",
+      "message": "Počet smazaných cookies: {{count}}"
+   },
+   "statsPageDetailed": {
+      "description": "",
+      "message": "Záznam spojení"
+   },
+   "statsPageDetailedAllPages": {
+      "description": "",
+      "message": "Všechny stránky"
+   },
+   "statsPageDetailedBehindTheScenePage": {
+      "description": "",
+      "message": "Chromium: Pod pokličkou"
+   },
+   "statsPageDetailedStats": {
+      "description": "",
+      "message": "Podrobné statistiky"
+   },
+   "statsPageFrames": {
+      "description": "",
+      "message": "Rámce"
+   },
+   "statsPageGenericStats": {
+      "description": "",
+      "message": "Obecné statistiky"
+   },
+   "statsPageHyperlinkAuditingFoiled": {
+      "description": "",
+      "message": "\u003Ca href='http://www.whatwg.org/specs/web-apps/current-work/multipage/links.html#hyperlink-auditing'>Hyperlink auditing\u003C/a> attempts foiled: {{count}}"
+   },
+   "statsPageImages": {
+      "description": "",
+      "message": "Obrázky"
+   },
+   "statsPageLocalStoragesCleared": {
+      "description": "",
+      "message": "\u003Ca href='http://diveintohtml5.info/storage.html'>Local storages\u003C/a> emptied: {{count}}"
+   },
+   "statsPageLogSizeHelp": {
+      "description": "To help user understand the purpose of the log size value",
+      "message": "\u003Cp>You can inspect details of the most recent raw HTTP requests which have been made by a web page (see below).\u003C/p>\u003Cp>This is mostly useful to advanced users who want to investigate exactly what a web page has been doing. But logging these HTTP requests requires memory, and if you don't care about this technical information, then memory is being wasted.\u003C/p>\u003Cp>Hence this field which lets you adjust the maximum number of the most recent HTTP requests which are to be logged for further inspection.\u003C/p>\u003Cp>Enter &ldquo;\u003Ccode>0\u003C/code>&rdquo; to turn off detailed logging (and consequently reduce the memory footprint of \u003Ci>uMatrix\u003C/i>).\u003C/p>"
+   },
+   "statsPageLogSizePrompt1": {
+      "description": "First part of Remember the last [n] HTTP requests per page",
+      "message": "Pamatovat posledních"
+   },
+   "statsPageLogSizePrompt2": {
+      "description": "Second part of Remember the last [n] HTTP requests per page",
+      "message": "HTTP spojení \u003Cb>na stránku\u003C/b>."
+   },
+   "statsPageName": {
+      "description": "a tab in dashboard",
+      "message": "Statistiky"
+   },
+   "statsPageOthers": {
+      "description": "",
+      "message": "Ostatní"
+   },
+   "statsPageOverview": {
+      "description": "",
+      "message": "Přehled"
+   },
+   "statsPagePages": {
+      "description": "",
+      "message": "Stránky"
+   },
+   "statsPagePlugins": {
+      "description": "",
+      "message": "Pluginy"
+   },
+   "statsPageRefererHeadersFoiled": {
+      "description": "",
+      "message": "\u003Ca href='https://en.wikipedia.org/wiki/HTTP_referer'>HTTP referer\u003C/a> headers foiled: {{count}}"
+   },
+   "statsPageRefresh": {
+      "description": "",
+      "message": "Obnovit"
+   },
+   "statsPageRequests": {
+      "description": "header for the stat type column",
+      "message": "Spojení"
+   },
+   "statsPageScripts": {
+      "description": "",
+      "message": "Skripty"
+   },
+   "statsPageTitle": {
+      "description": "",
+      "message": "µMatrix – Statistiky"
+   },
+   "statsPageXHRs": {
+      "description": "",
+      "message": "XHR"
+   },
+   "ubiquitousRulesPageName": {
+      "description": "a tab in dashboard",
+      "message": "Hosts files"
+   },
+   "userRulesCommit": {
+      "description": "Will save all temporary rules",
+      "message": "Potvrdit"
+   },
+   "userRulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "moje-pravidla-umatrix.txt"
+   },
+   "userRulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Upravit"
+   },
+   "userRulesEditDicard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Zrušit"
+   },
+   "userRulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Uložit"
+   },
+   "userRulesExport": {
+      "description": "",
+      "message": "Uložit do souboru…"
+   },
+   "userRulesFormatHint": {
+      "description": "",
+      "message": "See this page for rule syntax."
+   },
+   "userRulesImport": {
+      "description": "",
+      "message": "Načíst ze souboru…"
+   },
+   "userRulesPageName": {
+      "description": "a tab in dashboard",
+      "message": "Moje pravidla"
+   },
+   "userRulesPermanentHeader": {
+      "description": "",
+      "message": "Permanentní pravidla"
+   },
+   "userRulesRevert": {
+      "description": "Will remove all temporary rules",
+      "message": "Vrátit"
+   },
+   "userRulesTemporaryHeader": {
+      "description": "",
+      "message": "Dočasná pravidla"
+   },
+   "xhrPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "XHR"
+   }
+}

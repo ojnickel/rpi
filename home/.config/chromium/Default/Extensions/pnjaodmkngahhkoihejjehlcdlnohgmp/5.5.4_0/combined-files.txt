@@ -1,0 +1,4 @@
+popup/popup.js
+consume/consume.js
+options/options.js
+reader/reader.js
