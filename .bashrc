@@ -92,6 +92,7 @@ Jobs="\j"
 
 source /usr/share/git/completion/git-prompt.sh
 export PS1="$IBlue\t$Green\u$BIBlack@$Purple\h$ "$Color_Off'$(git branch &>/dev/null;\
+ # checks the exit status    of "export PS1...". Depending of the code (0 is success), the color pf __git_ps1 is changed or not shown at all
 if [ $? -eq 0 ]; then \
   echo "$(echo `git status` | grep "nothing to commit" > /dev/null 2>&1; \
   if [ "$?" -eq "0" ]; then \
