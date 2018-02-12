@@ -1,3 +1,0 @@
-var RSSLoader = FeedLoader.extend({
-	
-});

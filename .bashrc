@@ -1,9 +1,7 @@
-#  Customize BASH PS1 prompt to show current GIT repository and branch.
-#  by Mike Stewart - http://MediaDoneRight.com
+#I collected most changes in Intenet. Credits go to the otheeeers, who make them
 
-#  SETUP CONSTANTS
-#  Bunch-o-predefined colors.  Makes reading code easier than escape sequences.
-#  I don't remember where I found this.  o_O
+#####################
+# for 8 colors in terminal
 
 # Reset
 Color_Off="\[\033[0m\]"       # Text Reset
@@ -88,7 +86,6 @@ Jobs="\j"
 
 
 # This PS1 snippet was adopted from code for MAC/BSD I saw from: http://allancraig.net/index.php?option=com_content&view=article&id=108:ps1-export-command-for-git&catid=45:general&Itemid=96
-# I tweaked it to work on UBUNTU 11.04 & 11.10 plus made it mo' better
 
 source /usr/share/git/completion/git-prompt.sh
 export PS1="$IBlue\t$Green\u$BIBlack@$Purple\h$ "$Color_Off'$(git branch &>/dev/null;\
