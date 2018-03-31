@@ -78,7 +78,7 @@ set expandtab       " use spaces instead of tabs
 set autoindent      " autoindent based on line above, works most of the time
 set smartindent     " smarter indent for C-like languages
 set shiftwidth=4    " when reading, tabs are 4 spaces
-set softtabstop=4   " in insert mode, tabs are 4 spaces
+set softtabstop=2   " in insert mode, tabs are 2 spaces
 
 " no lines longer than 80 cols
 set textwidth=80
@@ -120,4 +120,20 @@ nmap <leader>bl :ls<CR>
 set notimeout
 set nottimeout
 
+" expander for emmet
+imap <expr> <tab> emmet#expandAbbrIntelligent("\<tab>")
 
+"media queries -> emmet
+let g:user_emmet_settings = {
+  \  'css' : {
+  \    'extends' : 'css',
+  \    'filters' : 'fc',
+  \    'snippets' : {
+  \             'mqm': "@media screen and (min-width:${1}) {\n\t|\n}",
+  \    		'mqx': "@media screen and (max-width:${1}) {\n\t|\n}",
+  \    		'mqmx': "@media screen and (min-width:${1}) and (max-width:${1}) {\n\t|\n}",
+  \    		'by': "body {\n\t${1} |\n}",
+  \	},
+  \
+  \  },
+  \}
