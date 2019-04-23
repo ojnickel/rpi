@@ -1,3 +1,7 @@
+"set mouse with Nerdtree
+set mouse=a
+let g:NERDTreeMouseMode=3
+
 set noshowmode
 set ts=4
 set cursorline
@@ -37,6 +41,8 @@ Plugin 'ap/vim-css-color'
 Plugin 'hail2u/vim-css3-syntax'
 Plugin 'digitaltoad/vim-jade'
 Plugin 'tpope/vim-haml'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'jiangmiao/auto-pairs'
 
 
 " We could also add repositories with a ".git" extension
@@ -137,3 +143,13 @@ let g:user_emmet_settings = {
   \
   \  },
   \}
+
+"autoccompletion
+set omnifunc=htmlcomplete#CompleteTags
+"|-> for html css w/o pressing c-x  or c-o
+autocmd FileType html set omnifunc=htmlcomplete#CompleteTags
+
+"disable auto comment insertion
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+
+noremap <F9> <C-w><C-w>
